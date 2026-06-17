@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ETW Israel | Web Design, E-Commerce & Digital Marketing for Israeli Businesses",
+  title: "ETW Israel | עיצוב אתרים, חנויות אונליין ושיווק דיגיטלי",
   description:
-    "Premium web design, e-commerce stores, SEO, and email marketing for Israeli businesses. Built by ETW Agency.",
+    "בניית אתרים, חנויות אונליין, קידום אורגני ושיווק במייל לעסקים בישראל. עיצוב פרימיום, תוצאות אמיתיות.",
   metadataBase: new URL("https://etw.co.il"),
   openGraph: {
-    title: "ETW Israel | Web Design, E-Commerce & Digital Marketing",
+    title: "ETW Israel | עיצוב אתרים, חנויות אונליין ושיווק דיגיטלי",
     description:
-      "Premium web design, e-commerce stores, SEO, and email marketing for Israeli businesses.",
+      "בניית אתרים, חנויות אונליין, קידום אורגני ושיווק במייל לעסקים בישראל.",
     url: "https://etw.co.il",
     siteName: "ETW Israel",
-    locale: "en_IL",
+    locale: "he_IL",
     type: "website",
   },
 };
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="he" dir="rtl" className="scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -32,12 +32,12 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
       </head>
       <body className="min-h-screen antialiased">
-        <div className="grain-overlay" />
+        <div className="grain-overlay" aria-hidden="true" />
         {children}
       </body>
     </html>
