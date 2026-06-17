@@ -40,21 +40,21 @@ const portfolio = [
   },
   {
     name: "NajitZubare",
-    type: "פלטפורמת SaaS",
+    type: "פלטפורמת SaaS — 8,800 קליניקות",
     url: "najitzubare.cz",
-    seo: { grade: "B", onPage: "A-", links: "A-", performance: "A", social: "A+" },
+    seo: { grade: "A-", onPage: "A-", links: "A-", performance: "A", social: "A+" },
   },
   {
     name: "Apartments Verona",
-    type: "השכרת דירות",
+    type: "השכרת דירות לתיירים",
     url: "apartmentsverona.cz",
-    seo: { grade: "B", onPage: "A-", links: "A-", performance: "A", social: "A+" },
+    seo: { grade: "A-", onPage: "A-", links: "A-", performance: "A", social: "A+" },
   },
   {
     name: "WillBeClean",
-    type: "שירותי ניקיון",
+    type: "חברת ניקיון — אירופה",
     url: "willbeclean.eu",
-    seo: { grade: "B", onPage: "A-", links: "A-", performance: "A", social: "A+" },
+    seo: { grade: "A-", onPage: "A-", links: "A-", performance: "A", social: "A+" },
   },
 ];
 
