@@ -107,7 +107,6 @@ export default function Home() {
 
             <div className="order-last lg:order-first text-center lg:text-right">
               <div className="stagger-1">
-                <p className="section-label mb-6" dir="ltr">ETW Agency · Israel</p>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight mb-8 font-extrabold">
                   אנחנו בונים דיגיטל
                   <br />
@@ -144,28 +143,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ═══ STATS BAR ═══ */}
-      <section className="py-8 border-y border-white/5 relative overflow-hidden bg-[#050508]">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {[
-              { value: "+7", label: "שנות ניסיון" },
-              { value: "+50", label: "פרויקטים שהושלמו" },
-              { value: "A+", label: "דירוג SEO ממוצע" },
-              { value: "24/7", label: "תמיכה טכנית" },
-            ].map((stat, i) => (
-              <div key={i} className="text-center">
-                <span className="text-2xl md:text-3xl font-extrabold text-gradient" dir="ltr">
-                  {stat.value}
-                </span>
-                <p className="text-gray-600 text-[10px] font-medium tracking-widest mt-1">
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ═══ WHAT WE DO — 3 pillars ═══ */}
       <section className="py-28 md:py-36 relative overflow-hidden bg-deep-purple">
@@ -417,20 +394,12 @@ export default function Home() {
           <span dir="ltr">&copy; {new Date().getFullYear()} ETW Agency</span>
           <div className="flex items-center gap-6">
             <a
-              href="mailto:dan@etwagency.online"
-              className="hover:text-brand transition-colors"
-              dir="ltr"
-            >
-              dan@etwagency.online
-            </a>
-            <a
-              href="https://etw.agency"
+              href="https://calendly.com/dan-etw/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-brand transition-colors"
-              dir="ltr"
             >
-              etw.agency
+              צרו קשר
             </a>
           </div>
         </div>
