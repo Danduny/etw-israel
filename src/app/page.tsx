@@ -351,21 +351,17 @@ export default function Home() {
                   </span>
                 </div>
 
-                <div className="flex items-center gap-4 mt-5 pt-5 border-t border-white/5" dir="ltr">
+                <div className="flex items-center gap-5 mt-5 pt-5 border-t border-white/5" dir="ltr">
                   {[
                     { label: "SEO", value: project.scores.seo },
-                    { label: "A11Y", value: project.scores.accessibility },
-                    { label: "BP", value: project.scores.bestPractices },
-                    { label: "PERF", value: project.scores.performance },
+                    { label: "Best Practices", value: project.scores.bestPractices },
                   ].map((metric) => (
-                    <div key={metric.label} className="text-center flex-1" style={{ fontFamily: 'Inter' }}>
-                      <p className={`font-bold text-sm ${metric.value >= 90 ? 'text-green-400' : metric.value >= 50 ? 'text-yellow-400' : 'text-red-400'}`}>
-                        {metric.value}
-                      </p>
-                      <p className="text-gray-600 text-[9px] mt-0.5 tracking-wider">{metric.label}</p>
+                    <div key={metric.label} className="flex items-center gap-2" style={{ fontFamily: 'Inter' }}>
+                      <span className="text-green-400 font-bold text-sm">{metric.value}</span>
+                      <span className="text-gray-600 text-[10px] tracking-wider">{metric.label}</span>
                     </div>
                   ))}
-                  <p className="text-[8px] text-gray-600 tracking-wider self-end mb-0.5">Lighthouse</p>
+                  <p className="text-[8px] text-gray-600 tracking-wider ms-auto">Google Lighthouse</p>
                 </div>
               </a>
             ))}
