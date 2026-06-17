@@ -36,25 +36,25 @@ const portfolio = [
     name: "VitaluxDENT",
     type: "קליניקה דנטלית",
     url: "vitaluxdent.cz",
-    seo: { grade: "A-", onPage: "A-", links: "A", performance: "A+", social: "A+" },
+    scores: { performance: 69, accessibility: 96, bestPractices: 100, seo: 100 },
   },
   {
     name: "NajitZubare",
     type: "פלטפורמת SaaS — 8,800 קליניקות",
     url: "najitzubare.cz",
-    seo: { grade: "A-", onPage: "A-", links: "A-", performance: "A", social: "A+" },
+    scores: { performance: 40, accessibility: 89, bestPractices: 96, seo: 100 },
   },
   {
     name: "Apartments Verona",
     type: "השכרת דירות לתיירים",
     url: "apartmentsverona.cz",
-    seo: { grade: "A-", onPage: "A-", links: "A-", performance: "A", social: "A+" },
+    scores: { performance: 75, accessibility: 93, bestPractices: 96, seo: 91 },
   },
   {
     name: "WillBeClean",
     type: "חברת ניקיון — אירופה",
     url: "willbeclean.eu",
-    seo: { grade: "A-", onPage: "A-", links: "A-", performance: "A", social: "A+" },
+    scores: { performance: 64, accessibility: 87, bestPractices: 100, seo: 91 },
   },
 ];
 
@@ -351,29 +351,21 @@ export default function Home() {
                   </span>
                 </div>
 
-                <div className="flex items-center gap-3 mt-5 pt-5 border-t border-white/5" dir="ltr">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-brand/10 border border-brand/20">
-                    <span className="text-brand font-extrabold text-lg" style={{ fontFamily: 'Inter' }}>{project.seo.grade}</span>
-                  </div>
-                  <div className="flex gap-3 text-[10px] font-medium tracking-wider" style={{ fontFamily: 'Inter' }}>
-                    <div className="text-center">
-                      <p className="text-green-400 font-bold text-xs">{project.seo.onPage}</p>
-                      <p className="text-gray-600 mt-0.5">SEO</p>
+                <div className="flex items-center gap-4 mt-5 pt-5 border-t border-white/5" dir="ltr">
+                  {[
+                    { label: "SEO", value: project.scores.seo },
+                    { label: "A11Y", value: project.scores.accessibility },
+                    { label: "BP", value: project.scores.bestPractices },
+                    { label: "PERF", value: project.scores.performance },
+                  ].map((metric) => (
+                    <div key={metric.label} className="text-center flex-1" style={{ fontFamily: 'Inter' }}>
+                      <p className={`font-bold text-sm ${metric.value >= 90 ? 'text-green-400' : metric.value >= 50 ? 'text-yellow-400' : 'text-red-400'}`}>
+                        {metric.value}
+                      </p>
+                      <p className="text-gray-600 text-[9px] mt-0.5 tracking-wider">{metric.label}</p>
                     </div>
-                    <div className="text-center">
-                      <p className="text-green-400 font-bold text-xs">{project.seo.links}</p>
-                      <p className="text-gray-600 mt-0.5">LINKS</p>
-                    </div>
-                    <div className="text-center">
-                      <p className="text-green-400 font-bold text-xs">{project.seo.performance}</p>
-                      <p className="text-gray-600 mt-0.5">SPEED</p>
-                    </div>
-                    <div className="text-center">
-                      <p className="text-green-400 font-bold text-xs">{project.seo.social}</p>
-                      <p className="text-gray-600 mt-0.5">SOCIAL</p>
-                    </div>
-                  </div>
-                  <p className="text-[9px] text-gray-600 ms-auto tracking-wider">SEOptimer</p>
+                  ))}
+                  <p className="text-[8px] text-gray-600 tracking-wider self-end mb-0.5">Lighthouse</p>
                 </div>
               </a>
             ))}
