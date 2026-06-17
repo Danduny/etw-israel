@@ -71,12 +71,17 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            <div className="stagger-2 hidden lg:flex justify-center relative order-first lg:order-last">
-              <div className="relative w-[400px] h-[480px] flex items-center justify-center" id="mascot-slot">
+            <div className="stagger-2 flex justify-center relative order-first lg:order-last">
+              <div className="relative w-[220px] h-[280px] md:w-[280px] md:h-[360px] lg:w-[400px] lg:h-[500px]">
                 <div className="absolute inset-0 bg-brand/20 blur-[100px] rounded-full" aria-hidden="true" />
-                <div className="relative z-10 w-[300px] h-[300px] rounded-full bg-brand/5 border border-brand/10 flex items-center justify-center float">
-                  <span className="text-8xl font-extrabold text-gradient">ETW</span>
-                </div>
+                <Image
+                  src="/images/mascot-lion.png"
+                  alt="ETW Israel mascot"
+                  width={400}
+                  height={500}
+                  className="relative z-10 drop-shadow-[0_0_60px_rgba(137,90,246,0.4)] float object-contain"
+                  priority
+                />
               </div>
             </div>
 
@@ -338,12 +343,16 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="hidden lg:flex justify-center relative order-last" id="cta-mascot-slot">
-              <div className="relative w-[360px] h-[460px] flex items-center justify-center">
+            <div className="hidden lg:flex justify-center relative order-last">
+              <div className="relative w-[360px] h-[460px]">
                 <div className="absolute inset-0 bg-brand/15 blur-[80px] rounded-full" aria-hidden="true" />
-                <div className="relative z-10 w-[250px] h-[250px] rounded-full bg-brand/5 border border-brand/10 flex items-center justify-center float">
-                  <span className="text-6xl font-extrabold text-gradient">ETW</span>
-                </div>
+                <Image
+                  src="/images/mascot-lion.png"
+                  alt="ETW Israel"
+                  width={360}
+                  height={460}
+                  className="relative z-10 drop-shadow-[0_0_50px_rgba(137,90,246,0.35)] object-contain float"
+                />
               </div>
             </div>
 
