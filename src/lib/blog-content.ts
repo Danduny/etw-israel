@@ -191,6 +191,223 @@ SEO (Search Engine Optimization) זה מה שגורם לאתר שלך להופי
 רוצים אודיט מקצועי בחינם? [קבעו שיחה](https://calendly.com/dan-etw/30min) ונגיד לכם בדיוק מה לתקן.
 `,
     },
+    "email-marketing-roi": {
+      slug: "email-marketing-roi",
+      title: "שיווק במייל: למה זה עדיין הערוץ הכי רווחי ב-2026",
+      date: "2026-06-25",
+      readTime: "6 דק׳",
+      category: "שיווק",
+      metaDescription: "ROI של 4,200%. למה עסקים שמזניחים מייל משאירים כסף על השולחן ואיך להתחיל בלי תקציב גדול.",
+      content: `
+## 4,200% החזר על השקעה. זה לא טעות דפוס.
+
+על כל שקל שאתה משקיע בשיווק במייל, אתה מקבל בממוצע 42 שקלים בחזרה. שום ערוץ שיווקי אחר לא מתקרב למספרים האלה. לא פייסבוק, לא גוגל, לא אינסטגרם.
+
+ובכל זאת, רוב העסקים הקטנים בישראל מתעלמים מאימייל לגמרי. הם ממוקדים ברשתות החברתיות, משלמים אלפי שקלים על קמפיינים ממומנים, ושוכחים שיש להם רשימה של לקוחות שכבר קנו מהם.
+
+## למה מייל עובד כל כך טוב?
+
+### הקהל כבר שלך
+
+ברשתות חברתיות אתה שוכר קהל. האלגוריתם מחליט מי רואה את הפוסט שלך, וברגע שאתה מפסיק לשלם, אתה נעלם. רשימת המייל שלך היא נכס שאתה הבעלים שלו. אף אחד לא יכול לקחת אותה ממך.
+
+### שיעורי המרה גבוהים
+
+הודעת מייל ממוצעת מגיעה לשיעור פתיחה של 20-25% ושיעור הקלקה של 3-5%. פוסט אורגני בפייסבוק? שיעור חשיפה של 2-5% מהעוקבים שלך. ההבדל ברור.
+
+### עלות נמוכה
+
+פלטפורמות כמו Mailchimp ו-Brevo מציעות תוכניות חינמיות עד 500 או 1,000 אנשי קשר. אפילו תוכניות בתשלום עולות ₪100-₪300 לחודש. בהשוואה ל-₪3,000-₪10,000 לחודש על פרסום ממומן, זה כלום.
+
+## איך להתחיל (גם בלי ניסיון)
+
+### שלב 1: בנו רשימה
+
+התחילו עם מה שיש. לקוחות קיימים, אנשים שפנו אליכם, עוקבים שהשאירו פרטים. הוסיפו טופס הרשמה באתר עם הצעת ערך ברורה: "קבלו 10% הנחה על ההזמנה הראשונה" או "מדריך חינמי ל...".
+
+### שלב 2: בחרו פלטפורמה
+
+למתחילים, Brevo (לשעבר Sendinblue) היא הבחירה הטובה ביותר לעסקים ישראליים. תמיכה ב-RTL לעברית, ממשק נקי, ותוכנית חינמית נדיבה.
+
+### שלב 3: תכתבו מיילים שאנשים רוצים לקרוא
+
+לא מבצעים כל הזמן. לא ניוזלטרים משעממים. תנו ערך. שתפו ידע מקצועי, טיפים, מאחורי הקלעים של העסק. היחס שעובד: 80% ערך, 20% מכירה.
+
+### שלב 4: שלחו בעקביות
+
+פעם בשבוע זה מושלם. פעם בשבועיים זה בסדר. פעם בחודש זה המינימום. העיקר לא להיעלם ואז לחזור עם "הנחה מטורפת!!!".
+
+## טעויות שעולות ביוקר
+
+**קניית רשימות מייל.** זה לא עובד. אנשים שלא ביקשו לקבל ממך מייל לא יפתחו אותו, ידווחו כספאם, ויפגעו בדירוג שלך.
+
+**שורות נושא גנריות.** "ניוזלטר חודש יוני" לא מעניין אף אחד. "3 טעויות שעולות לך ₪5,000 בחודש" כן.
+
+**בלי סגמנטציה.** לקוח שקנה מוצר אחר צריך לקבל מייל אחר מלקוח חדש. תחלקו את הרשימה לקבוצות ותתאימו את המסרים.
+
+## מה זה עולה עם מקצוענים?
+
+ב-ETW אנחנו בונים מערכות שיווק במייל מלאות: אסטרטגיה, עיצוב תבניות, כתיבת תוכן, אוטומציות ודוחות. מתחילים מ-₪1,900 לחודש.
+
+רוצים להבין כמה כסף הרשימה שלכם שווה? [קבעו שיחה חינם](https://calendly.com/dan-etw/30min) ונראה לכם בדיוק מה אפשר לעשות.
+`,
+    },
+    "wix-vs-custom-website": {
+      slug: "wix-vs-custom-website",
+      title: "וויקס מול אתר מותאם אישית — מה עדיף לעסק שלך?",
+      date: "2026-06-28",
+      readTime: "8 דק׳",
+      category: "מדריכים",
+      metaDescription: "השוואה כנה בין בנייה עצמית בפלטפורמה לבין אתר שנבנה במיוחד בשבילך. יתרונות, חסרונות ומתי כל אחד שווה.",
+      content: `
+## התשובה הקצרה
+
+אם אתה צריך אתר היום עם אפס תקציב ואפס ציפיות — Wix בסדר. לכל מקרה אחר, אתר מותאם אישית ישרת אותך טוב יותר.
+
+עכשיו התשובה הארוכה.
+
+## מה זה Wix בעצם?
+
+Wix היא פלטפורמת בניית אתרים עם עורך גרירה ושחרור. אתה בוחר תבנית, משנה טקסטים ותמונות, ויש לך אתר. פשוט, מהיר, זול.
+
+המחיר: ₪50-₪150 לחודש, תלוי בתוכנית.
+
+## מה זה אתר מותאם אישית?
+
+אתר שנבנה מאפס, בקוד, עם עיצוב ייחודי שלא קיים אצל אף עסק אחר. הכל מותאם בדיוק לצרכים שלך, לקהל היעד שלך, ולמטרות העסקיות שלך.
+
+המחיר: ₪4,900-₪15,000+ חד-פעמי, תלוי בהיקף.
+
+## השוואה ישירה
+
+### מהירות טעינה
+
+**Wix:** 3-6 שניות ממוצע. הקוד כבד, הפלטפורמה טוענת סקריפטים שאתה לא צריך.
+
+**אתר מותאם:** 1-2 שניות. כל שורת קוד קיימת כי היא צריכה להיות שם.
+
+למה זה חשוב? גוגל מעדיף אתרים מהירים. כל שנייה נוספת בטעינה מורידה את שיעור ההמרה ב-7%.
+
+### SEO
+
+**Wix:** השתפר הרבה בשנים האחרונות, אבל עדיין מוגבל. קשה לשלוט בכתובות URL, Schema markup מוגבל, מהירות פוגעת בדירוג.
+
+**אתר מותאם:** שליטה מלאה. כל תגית, כל כתובת, כל פרמטר טכני מותאם בדיוק לאסטרטגיית ה-SEO שלך.
+
+בשוק הישראלי, שבו התחרות על מילות מפתח בעברית הולכת וגדלה, היתרון הטכני הזה קריטי.
+
+### עיצוב
+
+**Wix:** יפה, אבל מוגבל לתבניות. בסוף כל האתרים נראים דומה. הלקוחות שלך מזהים את זה, גם אם הם לא יודעים לנסח למה.
+
+**אתר מותאם:** ייחודי לחלוטין. המותג שלך בא לידי ביטוי בכל פיקסל. זה מה שיוצר רושם ראשוני חזק ובידול מהמתחרים.
+
+### בעלות ושליטה
+
+**Wix:** האתר לא באמת שלך. הוא חי על השרתים של Wix. אם הם מעלים מחירים, משנים תנאים, או סוגרים פיצ'ר שאתה תלוי בו, אין לך מה לעשות. אי אפשר לייצא את האתר ולעבור לפלטפורמה אחרת.
+
+**אתר מותאם:** הקוד שלך. העיצוב שלך. האתר על השרת שאתה בוחר. רוצה לעבור ספק אחסון? בבקשה. רוצה להוסיף פיצ'ר מורכב? אפשר.
+
+### עלות לאורך זמן
+
+בואו נעשה חשבון לתקופה של 3 שנים:
+
+**Wix:** ₪150/חודש × 36 = ₪5,400 + תוספים בתשלום (טפסים, אנליטיקה, אפליקציות) = ₪7,000-₪9,000
+
+**אתר מותאם:** ₪7,000 חד-פעמי + ₪300/חודש אחסון ותחזוקה × 36 = ₪17,800
+
+כן, אתר מותאם עולה יותר. אבל כשהאתר המותאם מביא יותר לקוחות בגלל מהירות, SEO ומיתוג חזק יותר, ההשקעה מחזירה את עצמה מהר.
+
+## אז מתי Wix כן הבחירה הנכונה?
+
+עסק שרק מתחיל, עם תקציב של ₪0 לאתר, שצריך משהו באוויר השבוע. פרילנסר שצריך עמוד נחיתה פשוט עם פורטפוליו. פרויקט זמני או ניסיוני.
+
+## ומתי ללכת על מותאם אישית?
+
+כשהאתר הוא כלי מכירות מרכזי. כשאתה מתחרה על מילות מפתח בגוגל. כשאתה רוצה למכור אונליין. כשאתה רוצה להיראות מקצועי ולא "עוד אחד עם Wix". כשאתה בונה מותג לטווח ארוך.
+
+## איך אנחנו עובדים
+
+ב-ETW אנחנו בונים אתרים מותאמים אישית מ-₪4,900. זמן אספקה: 2-4 שבועות. כולל עיצוב, פיתוח, SEO בסיסי, התאמה לנייד ופאנל ניהול תוכן.
+
+רוצים לדעת מה הפתרון הנכון בשבילכם? [קבעו שיחה חינם](https://calendly.com/dan-etw/30min). אנחנו לא נדחוף אתכם לשום כיוון, רק נגיד את מה שאנחנו חושבים.
+`,
+    },
+    "google-business-profile-guide": {
+      slug: "google-business-profile-guide",
+      title: "Google Business Profile — המדריך המלא לעסקים בישראל",
+      date: "2026-07-01",
+      readTime: "6 דק׳",
+      category: "SEO",
+      metaDescription: "איך להקים, לאופטם ולהפוך את הפרופיל העסקי שלך בגוגל למגנט לקוחות. כולל טיפים לדירוג במפות.",
+      content: `
+## הכלי החינמי שרוב העסקים מבזבזים
+
+Google Business Profile (בעבר Google My Business) הוא אחד הכלים השיווקיים החזקים ביותר שקיימים. הוא חינמי לגמרי. ובכל זאת, 56% מהעסקים הקטנים בישראל לא תבעו את הפרופיל שלהם, ומאלה שכן, רובם מילאו את המינימום ושכחו מזה.
+
+הפרופיל העסקי בגוגל הוא מה שמופיע כשמישהו מחפש את העסק שלך, או שירות כמו שלך, בגוגל. זה הכרטיס ביקור הראשון שלקוח פוטנציאלי רואה. תמונות, ביקורות, שעות פתיחה, כתובת, מספר טלפון, קישור לאתר. הכל שם.
+
+## איך מקימים (10 דקות, לא יותר)
+
+### שלב 1: תבעו את הפרופיל
+
+היכנסו ל-[business.google.com](https://business.google.com) והירשמו. חפשו את שם העסק שלכם. אם הוא כבר קיים (גוגל יוצרת פרופילים אוטומטיים), תבעו בעלות. אם לא, צרו חדש.
+
+### שלב 2: אימות
+
+גוגל ישלחו גלויה עם קוד לכתובת העסק (לוקח 5-14 ימי עסקים), או שתוכלו לאמת בטלפון או באימייל אם העסק עומד בקריטריונים. בלי אימות, הפרופיל לא יופיע.
+
+### שלב 3: מלאו את הכל
+
+ממש את הכל. שם עסק מדויק (בדיוק כמו שמופיע בחשבונית), קטגוריה ראשית (תבחרו את הספציפית ביותר), תיאור (750 תווים, תנצלו את כולם), שעות פתיחה, כתובת, מספר טלפון, אתר אינטרנט.
+
+## אופטימיזציה שעושה את ההבדל
+
+### תמונות, תמונות, תמונות
+
+עסקים עם 10+ תמונות מקבלים 35% יותר הקלקות לאתר. העלו תמונות של העסק מבחוץ ומבפנים, של הצוות, של המוצרים או התוצאות שלכם. לא תמונות סטוק. תמונות אמיתיות, באיכות טובה.
+
+### ביקורות הן הזהב
+
+ביקורות גוגל משפיעות ישירות על הדירוג שלכם במפות. כל שבוע, בקשו מלקוח מרוצה לכתוב ביקורת. לא בהודעה כללית, אלא אישית. "היי, נהניתי לעבוד איתך. אם יש לך דקה, ביקורת בגוגל תעזור לנו מאוד" ולשלוח לינק ישיר.
+
+הטריק: אפשר ליצור לינק ישיר לביקורת מתוך לוח הבקרה של הפרופיל. שלחו אותו בוואטסאפ ללקוח מיד אחרי שירות מוצלח.
+
+**חשוב:** תגיבו לכל ביקורת. גם חיובית, גם שלילית. גוגל מתגמל עסקים פעילים.
+
+### פוסטים (כן, יש דבר כזה)
+
+רוב העסקים לא יודעים שאפשר לפרסם פוסטים בפרופיל העסקי. מבצעים, אירועים, חדשות, מוצרים חדשים. הפוסטים מופיעים ישירות בתוצאות החיפוש ונותנים לכם יותר נוכחות.
+
+פרסמו פוסט חדש כל שבוע. זה לוקח 5 דקות ושומר על הפרופיל חי ורלוונטי.
+
+### קטגוריות משניות
+
+מלבד הקטגוריה הראשית, אפשר להוסיף קטגוריות משניות. אם אתם מסעדה שעושה גם קייטרינג, הוסיפו "שירותי קייטרינג" כקטגוריה משנית. זה מרחיב את החיפושים שבהם אתם מופיעים.
+
+## איך מדרגים גבוה יותר במפות
+
+שלושת הגורמים שגוגל משתמש בהם לדירוג מפות:
+
+**רלוונטיות:** כמה הפרופיל שלכם מתאים לחיפוש. מילוי מלא של כל השדות עוזר.
+
+**מרחק:** כמה העסק קרוב למי שמחפש. על זה אין שליטה.
+
+**בולטות:** כמה העסק שלכם ידוע ואמין. ביקורות, קישורים לאתר, נוכחות בספריות עסקיות, כל אלה עוזרים.
+
+## טעויות נפוצות
+
+**שם עסק עמוס מילות מפתח.** "שרברב חירום תל אביב 24/7 הכי טוב" זה לא שם עסק. גוגל מעניש על זה. תשתמשו בשם העסק האמיתי.
+
+**שעות לא מעודכנות.** אם הלקוח מגיע ואתם סגורים, זו ביקורת שלילית. עדכנו שעות חגים מראש.
+
+**התעלמות מביקורות שליליות.** שתיקה נראית כמו הודאה. תגיבו מקצועית, בלי ויכוחים, עם הצעה לפתרון.
+
+## צריכים שמישהו יטפל בזה?
+
+אנחנו מנהלים פרופילים עסקיים בגוגל כחלק מחבילות ה-SEO שלנו, מ-₪2,900 לחודש. הקמה, אופטימיזציה, תוכן שוטף וניטור ביקורות. [קבעו שיחה חינם](https://calendly.com/dan-etw/30min) ונבדוק יחד מה המצב של הפרופיל שלכם.
+`,
+    },
   },
   en: {
     "website-cost-israel-2026": {
@@ -372,6 +589,223 @@ The visitor needs to understand within 5 seconds: what you do, who it's for, and
 Go through your website and check all 5 points. If there's a problem with any of them — that's probably what's costing you customers.
 
 Want a free professional audit? [Book a call](https://calendly.com/dan-etw/30min) and we'll tell you exactly what to fix.
+`,
+    },
+    "email-marketing-roi": {
+      slug: "email-marketing-roi",
+      title: "Email Marketing: Why It's Still the Most Profitable Channel in 2026",
+      date: "2026-06-25",
+      readTime: "6 min",
+      category: "Marketing",
+      metaDescription: "4,200% ROI. Why businesses neglecting email are leaving money on the table and how to start without a big budget.",
+      content: `
+## 4,200% Return on Investment. Not a Typo.
+
+For every shekel you invest in email marketing, you get 42 back on average. No other marketing channel comes close. Not Facebook, not Google Ads, not Instagram.
+
+Yet most small businesses in Israel ignore email entirely. They pour thousands of shekels into paid campaigns, chase followers on social media, and forget they already have a list of people who bought from them.
+
+## Why Email Works So Well
+
+### You Own the Audience
+
+On social media, you rent an audience. The algorithm decides who sees your post, and the moment you stop paying, you vanish. Your email list is an asset you own. Nobody can take it away.
+
+### High Conversion Rates
+
+An average email gets a 20-25% open rate and 3-5% click-through rate. An organic Facebook post? 2-5% reach of your followers. The difference is clear.
+
+### Low Cost
+
+Platforms like Mailchimp and Brevo offer free plans up to 500 or 1,000 contacts. Even paid plans run ₪100-₪300/month. Compared to ₪3,000-₪10,000/month on paid ads, that is nothing.
+
+## How to Start (Even With Zero Experience)
+
+### Step 1: Build a List
+
+Start with what you have. Existing customers, people who contacted you, followers who left their details. Add a signup form on your site with a clear value offer: "Get 10% off your first order" or "Free guide to...".
+
+### Step 2: Pick a Platform
+
+For beginners, Brevo (formerly Sendinblue) is the best choice for Israeli businesses. RTL support for Hebrew, clean interface, and a generous free plan.
+
+### Step 3: Write Emails People Want to Read
+
+Not promotions every time. Not boring newsletters. Deliver value. Share expertise, tips, behind-the-scenes of your business. The ratio that works: 80% value, 20% selling.
+
+### Step 4: Send Consistently
+
+Once a week is perfect. Biweekly is fine. Monthly is the minimum. The key is not to disappear and then come back with "CRAZY SALE!!!".
+
+## Mistakes That Cost You
+
+**Buying email lists.** It does not work. People who never asked to hear from you will not open your email, will report it as spam, and will tank your sender reputation.
+
+**Generic subject lines.** "June Newsletter" interests nobody. "3 mistakes costing you ₪5,000/month" does.
+
+**No segmentation.** A repeat customer needs a different email than a new lead. Segment your list into groups and tailor the message.
+
+## What It Costs With Professionals
+
+At ETW we build complete email marketing systems: strategy, template design, copywriting, automations and reporting. Starting at ₪1,900/month.
+
+Want to know how much your list is actually worth? [Book a free call](https://calendly.com/dan-etw/30min) and we will show you exactly what is possible.
+`,
+    },
+    "wix-vs-custom-website": {
+      slug: "wix-vs-custom-website",
+      title: "Wix vs Custom Website - What's Better for Your Business?",
+      date: "2026-06-28",
+      readTime: "8 min",
+      category: "Guides",
+      metaDescription: "An honest comparison between DIY platforms and a custom-built site. Pros, cons and when each one is worth it.",
+      content: `
+## The Short Answer
+
+If you need a site today with zero budget and zero expectations, Wix is fine. For every other case, a custom website will serve you better.
+
+Now the long answer.
+
+## What Is Wix, Really?
+
+Wix is a website builder with a drag-and-drop editor. You pick a template, change the text and images, and you have a website. Simple, fast, cheap.
+
+The price: ₪50-₪150/month, depending on the plan.
+
+## What Is a Custom Website?
+
+A site built from scratch, in code, with a unique design that no other business has. Everything is tailored to your needs, your audience, and your business goals.
+
+The price: ₪4,900-₪15,000+ one-time, depending on scope.
+
+## Head-to-Head Comparison
+
+### Loading Speed
+
+**Wix:** 3-6 seconds average. The code is heavy, the platform loads scripts you do not need.
+
+**Custom:** 1-2 seconds. Every line of code exists because it has to.
+
+Why it matters: Google favors fast sites. Every extra second of loading time drops your conversion rate by 7%.
+
+### SEO
+
+**Wix:** Has improved a lot in recent years, but still limited. Hard to control URLs, limited Schema markup, speed hurts ranking.
+
+**Custom:** Full control. Every tag, every URL, every technical parameter is tuned to your SEO strategy.
+
+In the Israeli market, where competition for Hebrew keywords keeps growing, this technical edge is critical.
+
+### Design
+
+**Wix:** Nice, but limited to templates. Eventually every site looks the same. Your customers can tell, even if they cannot articulate why.
+
+**Custom:** Completely unique. Your brand shows in every pixel. That is what creates a strong first impression and differentiates you from competitors.
+
+### Ownership and Control
+
+**Wix:** The site is not really yours. It lives on Wix's servers. If they raise prices, change terms, or kill a feature you depend on, there is nothing you can do. You cannot export the site and move to another platform.
+
+**Custom:** Your code. Your design. The site on whatever server you choose. Want to switch hosting? Go ahead. Want to add a complex feature? Possible.
+
+### Cost Over Time
+
+Let us do the math for a 3-year period:
+
+**Wix:** ₪150/month x 36 = ₪5,400 + paid add-ons (forms, analytics, apps) = ₪7,000-₪9,000
+
+**Custom:** ₪7,000 one-time + ₪300/month hosting and maintenance x 36 = ₪17,800
+
+Yes, custom costs more. But when the custom site brings more customers through better speed, SEO and stronger branding, the investment pays for itself fast.
+
+## When Wix IS the Right Choice
+
+A brand-new business with ₪0 budget for a site that needs something live this week. A freelancer who needs a simple landing page with a portfolio. A temporary or experimental project.
+
+## When to Go Custom
+
+When the website is a core sales tool. When you compete for Google keywords. When you sell online. When you want to look professional, not like "another Wix site." When you are building a long-term brand.
+
+## How We Work
+
+At ETW we build custom websites starting at ₪4,900. Delivery time: 2-4 weeks. Includes design, development, basic SEO, mobile optimization and a content management panel.
+
+Want to know the right solution for you? [Book a free call](https://calendly.com/dan-etw/30min). We will not push you in any direction, just tell you what we think.
+`,
+    },
+    "google-business-profile-guide": {
+      slug: "google-business-profile-guide",
+      title: "Google Business Profile - Complete Guide for Businesses in Israel",
+      date: "2026-07-01",
+      readTime: "6 min",
+      category: "SEO",
+      metaDescription: "How to set up, optimize and turn your Google Business Profile into a customer magnet. Including tips for Maps ranking.",
+      content: `
+## The Free Tool Most Businesses Waste
+
+Google Business Profile (formerly Google My Business) is one of the most powerful marketing tools that exists. It is completely free. And yet, 56% of small businesses in Israel have not claimed their profile, and of those that have, most filled in the bare minimum and forgot about it.
+
+Your Google Business Profile is what shows up when someone searches for your business, or a service like yours, on Google. It is the first business card a potential customer sees. Photos, reviews, hours, address, phone number, website link. Everything is right there.
+
+## How to Set It Up (10 Minutes, No More)
+
+### Step 1: Claim Your Profile
+
+Go to [business.google.com](https://business.google.com) and sign up. Search for your business name. If it already exists (Google creates profiles automatically), claim ownership. If not, create a new one.
+
+### Step 2: Verification
+
+Google will send a postcard with a code to your business address (takes 5-14 business days), or you may be able to verify by phone or email if your business meets certain criteria. Without verification, the profile will not appear.
+
+### Step 3: Fill In Everything
+
+Literally everything. Exact business name (exactly as it appears on invoices), primary category (pick the most specific one), description (750 characters, use them all), hours, address, phone number, website.
+
+## Optimization That Makes the Difference
+
+### Photos, Photos, Photos
+
+Businesses with 10+ photos get 35% more clicks to their website. Upload photos of the business exterior and interior, the team, your products or results. Not stock photos. Real photos, good quality.
+
+### Reviews Are Gold
+
+Google reviews directly affect your Maps ranking. Every week, ask a happy customer to write a review. Not a mass message, but personally. "Hey, great working with you. If you have a minute, a Google review would help us a lot" and send a direct link.
+
+The trick: you can generate a direct review link from the profile dashboard. Send it via WhatsApp to the customer right after a successful service.
+
+**Important:** Respond to every review. Positive and negative. Google rewards active businesses.
+
+### Posts (Yes, That Is a Thing)
+
+Most businesses do not know you can publish posts on your business profile. Promotions, events, news, new products. The posts appear directly in search results and give you more visibility.
+
+Publish a new post every week. It takes 5 minutes and keeps the profile alive and relevant.
+
+### Secondary Categories
+
+Besides the primary category, you can add secondary categories. If you are a restaurant that also does catering, add "Catering Service" as a secondary category. This expands the searches where you appear.
+
+## How to Rank Higher in Maps
+
+The three factors Google uses for Maps ranking:
+
+**Relevance:** How well your profile matches the search. Filling in all fields completely helps.
+
+**Distance:** How close the business is to the searcher. You cannot control this.
+
+**Prominence:** How well-known and trusted your business is. Reviews, website links, presence in business directories all help.
+
+## Common Mistakes
+
+**Keyword-stuffed business name.** "Emergency Plumber Tel Aviv 24/7 Best Ever" is not a business name. Google penalizes this. Use your actual business name.
+
+**Outdated hours.** If a customer shows up and you are closed, that is a negative review waiting to happen. Update holiday hours in advance.
+
+**Ignoring negative reviews.** Silence looks like admission. Respond professionally, without arguing, with a solution.
+
+## Need Someone to Handle This?
+
+We manage Google Business Profiles as part of our SEO packages, starting at ₪2,900/month. Setup, optimization, ongoing content and review monitoring. [Book a free call](https://calendly.com/dan-etw/30min) and we will check the state of your profile together.
 `,
     },
   },
