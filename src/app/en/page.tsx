@@ -7,43 +7,43 @@ import { servicesList, content } from "@/lib/content";
 const portfolio = [
   {
     name: "VitaluxDENT",
-    type: "קליניקה דנטלית",
+    type: "Dental Clinic",
     url: "vitaluxdent.cz",
     scores: { bestPractices: 100, seo: 100 },
   },
   {
     name: "NajitZubare",
-    type: "פלטפורמת SaaS — 8,800 קליניקות",
+    type: "SaaS Platform — 8,800 Clinics",
     url: "najitzubare.cz",
     scores: { bestPractices: 96, seo: 100 },
   },
   {
     name: "Apartments Verona",
-    type: "השכרת דירות לתיירים",
+    type: "Tourist Apartment Rentals",
     url: "apartmentsverona.cz",
     scores: { bestPractices: 96, seo: 91 },
   },
   {
     name: "WillBeClean",
-    type: "חברת ניקיון — אירופה",
+    type: "Cleaning Company — Europe",
     url: "willbeclean.eu",
     scores: { bestPractices: 100, seo: 91 },
   },
 ];
 
-const t = content.he;
-const services = servicesList.he;
+const t = content.en;
+const services = servicesList.en;
 
-export default function Home() {
+export default function EnglishHome() {
   return (
     <main>
-      <Nav locale="he" />
+      <Nav locale="en" />
 
       {/* ═══ HERO ═══ */}
       <section className="relative min-h-[100dvh] flex items-center pt-20 overflow-hidden">
         <div className="purple-glow-strong absolute inset-0 pointer-events-none" />
-        <div className="glow-orb w-[500px] h-[500px] top-[10%] -left-[10%]" aria-hidden="true" />
-        <div className="glow-orb w-[300px] h-[300px] bottom-[20%] -right-[5%] opacity-50" aria-hidden="true" />
+        <div className="glow-orb w-[500px] h-[500px] top-[10%] -right-[10%]" aria-hidden="true" />
+        <div className="glow-orb w-[300px] h-[300px] bottom-[20%] -left-[5%] opacity-50" aria-hidden="true" />
 
         <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -61,7 +61,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="order-last lg:order-first text-center lg:text-right">
+            <div className="order-last lg:order-first text-center lg:text-left">
               <div className="stagger-1">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight mb-8 font-extrabold">
                   {t.hero.h1}
@@ -71,7 +71,7 @@ export default function Home() {
               </div>
 
               <div className="stagger-2">
-                <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 font-light leading-relaxed mx-auto lg:mx-0 lg:mr-0">
+                <p className="text-lg md:text-xl text-gray-400 max-w-2xl mb-10 font-light leading-relaxed mx-auto lg:mx-0">
                   {t.hero.sub}
                 </p>
               </div>
@@ -116,7 +116,7 @@ export default function Home() {
                 key={i}
                 className="glass-card-gradient rounded-xl p-8 h-full group hover:scale-[1.02] transition-transform duration-300"
               >
-                <p className="text-brand text-xs font-bold tracking-[0.15em] mb-2" dir="ltr" style={{ fontFamily: "Inter" }}>
+                <p className="text-brand text-xs font-bold tracking-[0.15em] mb-2" style={{ fontFamily: "Inter" }}>
                   {String(i + 1).padStart(2, "0")}
                 </p>
                 <h3 className="text-xl font-bold tracking-tight mb-1">{card.title}</h3>
@@ -143,7 +143,7 @@ export default function Home() {
             {services.map((s, i) => (
               <Link
                 key={i}
-                href={`/services/${s.slug}`}
+                href={`/en/services/${s.slug}`}
                 className="service-card glass-card card-accent rounded-xl p-6 flex flex-col h-full group"
               >
                 <div className="w-12 h-12 mb-5 relative">
@@ -159,9 +159,7 @@ export default function Home() {
                 <p className="text-sm text-gray-400 leading-relaxed mb-6 flex-1">{s.desc}</p>
                 <p className="text-sm text-gray-500">
                   {s.label}{" "}
-                  <span className="text-brand font-semibold text-base" dir="ltr">
-                    {s.price}
-                  </span>
+                  <span className="text-brand font-semibold text-base">{s.price}</span>
                 </p>
               </Link>
             ))}
@@ -188,7 +186,7 @@ export default function Home() {
               >
                 <div className="flex items-start justify-between mb-4">
                   <h3 className="text-lg font-bold tracking-tight">{prop.title}</h3>
-                  <span className="text-2xl font-extrabold text-gradient shrink-0 ms-4" dir="ltr">
+                  <span className="text-2xl font-extrabold text-gradient shrink-0 ml-4">
                     {prop.stat}
                   </span>
                 </div>
@@ -227,11 +225,7 @@ export default function Home() {
                     </h3>
                     <p className="text-gray-500 text-sm mt-1">{project.type}</p>
                   </div>
-                  <span
-                    className="text-brand text-xs font-medium flex items-center gap-1 group-hover:gap-2 transition-all duration-200 shrink-0 ms-4"
-                    dir="ltr"
-                    style={{ fontFamily: "Inter" }}
-                  >
+                  <span className="text-brand text-xs font-medium flex items-center gap-1 group-hover:gap-2 transition-all duration-200 shrink-0 ml-4" style={{ fontFamily: "Inter" }}>
                     {project.url}
                     <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
@@ -239,7 +233,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <div className="flex items-center gap-5 mt-5 pt-5 border-t border-white/5" dir="ltr">
+                <div className="flex items-center gap-5 mt-5 pt-5 border-t border-white/5">
                   {[
                     { label: "SEO", value: project.scores.seo },
                     { label: "Best Practices", value: project.scores.bestPractices },
@@ -249,7 +243,7 @@ export default function Home() {
                       <span className="text-gray-600 text-[10px] tracking-wider">{metric.label}</span>
                     </div>
                   ))}
-                  <p className="text-[8px] text-gray-600 tracking-wider ms-auto">Google Lighthouse</p>
+                  <p className="text-[8px] text-gray-600 tracking-wider ml-auto">Google Lighthouse</p>
                 </div>
               </a>
             ))}
@@ -264,7 +258,7 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="hidden lg:flex justify-center relative order-last">
+            <div className="hidden lg:flex justify-center relative">
               <div className="relative w-[360px] h-[460px]">
                 <div className="absolute inset-0 bg-brand/15 blur-[80px] rounded-full" aria-hidden="true" />
                 <Image
@@ -277,13 +271,13 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="text-center lg:text-right">
+            <div className="text-center lg:text-left">
               <h2 className="text-3xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tight mb-8 font-extrabold">
                 {t.cta.h2}
                 <br />
                 <span className="text-gradient">{t.cta.h2Accent}</span>
               </h2>
-              <p className="text-gray-400 text-lg mb-12 max-w-xl font-light leading-relaxed mx-auto lg:mx-0 lg:mr-0">
+              <p className="text-gray-400 text-lg mb-12 max-w-xl font-light leading-relaxed mx-auto lg:mx-0">
                 {t.cta.sub}
               </p>
               <a
@@ -299,7 +293,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Footer locale="he" />
+      <Footer locale="en" />
     </main>
   );
 }
