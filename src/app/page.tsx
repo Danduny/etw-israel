@@ -32,10 +32,30 @@ const services = [
 ];
 
 const portfolio = [
-  { name: "VitaluxDENT", type: "קליניקה דנטלית", url: "vitaluxdent.cz" },
-  { name: "NajitZubare", type: "פלטפורמת SaaS", url: "najitzubare.cz" },
-  { name: "Apartments Verona", type: "השכרת דירות", url: "apartmentsverona.cz" },
-  { name: "WillBeClean", type: "שירותי ניקיון", url: "willbeclean.eu" },
+  {
+    name: "VitaluxDENT",
+    type: "קליניקה דנטלית",
+    url: "vitaluxdent.cz",
+    seo: { grade: "A-", onPage: "A-", links: "A", performance: "A+", social: "A+" },
+  },
+  {
+    name: "NajitZubare",
+    type: "פלטפורמת SaaS",
+    url: "najitzubare.cz",
+    seo: { grade: "B", onPage: "A-", links: "A-", performance: "A", social: "A+" },
+  },
+  {
+    name: "Apartments Verona",
+    type: "השכרת דירות",
+    url: "apartmentsverona.cz",
+    seo: { grade: "B", onPage: "A-", links: "A-", performance: "A", social: "A+" },
+  },
+  {
+    name: "WillBeClean",
+    type: "שירותי ניקיון",
+    url: "willbeclean.eu",
+    seo: { grade: "B", onPage: "A-", links: "A-", performance: "A", social: "A+" },
+  },
 ];
 
 export default function Home() {
@@ -329,6 +349,31 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                     </svg>
                   </span>
+                </div>
+
+                <div className="flex items-center gap-3 mt-5 pt-5 border-t border-white/5" dir="ltr">
+                  <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-brand/10 border border-brand/20">
+                    <span className="text-brand font-extrabold text-lg" style={{ fontFamily: 'Inter' }}>{project.seo.grade}</span>
+                  </div>
+                  <div className="flex gap-3 text-[10px] font-medium tracking-wider" style={{ fontFamily: 'Inter' }}>
+                    <div className="text-center">
+                      <p className="text-green-400 font-bold text-xs">{project.seo.onPage}</p>
+                      <p className="text-gray-600 mt-0.5">SEO</p>
+                    </div>
+                    <div className="text-center">
+                      <p className="text-green-400 font-bold text-xs">{project.seo.links}</p>
+                      <p className="text-gray-600 mt-0.5">LINKS</p>
+                    </div>
+                    <div className="text-center">
+                      <p className="text-green-400 font-bold text-xs">{project.seo.performance}</p>
+                      <p className="text-gray-600 mt-0.5">SPEED</p>
+                    </div>
+                    <div className="text-center">
+                      <p className="text-green-400 font-bold text-xs">{project.seo.social}</p>
+                      <p className="text-gray-600 mt-0.5">SOCIAL</p>
+                    </div>
+                  </div>
+                  <p className="text-[9px] text-gray-600 ms-auto tracking-wider">SEOptimer</p>
                 </div>
               </a>
             ))}
