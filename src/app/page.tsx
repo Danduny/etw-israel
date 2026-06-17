@@ -347,7 +347,7 @@ export default function Home() {
               <div className="relative w-[360px] h-[460px]">
                 <div className="absolute inset-0 bg-brand/15 blur-[80px] rounded-full" aria-hidden="true" />
                 <Image
-                  src="/images/mascot-lion.png"
+                  src="/images/mascot-lion-bust.png"
                   alt="ETW Israel"
                   width={360}
                   height={460}
