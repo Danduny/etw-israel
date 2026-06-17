@@ -1,6 +1,8 @@
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import { blogPosts } from "@/lib/content";
+import { blogArticles } from "@/lib/blog-content";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -33,8 +35,9 @@ export default function BlogPageEN() {
         <div className="max-w-4xl mx-auto px-6 relative z-10">
           <div className="space-y-5">
             {posts.map((post, i) => (
-              <article
+              <Link
                 key={i}
+                href={blogArticles.en[post.slug] ? `/en/blog/${post.slug}` : "#"}
                 className="glass-card rounded-xl p-8 group hover:border-brand/20 transition-all duration-300 block"
               >
                 <div className="flex items-center gap-3 mb-4">
@@ -55,9 +58,9 @@ export default function BlogPageEN() {
                   {post.excerpt}
                 </p>
                 <p className="text-brand text-sm font-medium mt-4">
-                  Coming soon &rarr;
+                  {blogArticles.en[post.slug] ? "Read more →" : "Coming soon →"}
                 </p>
-              </article>
+              </Link>
             ))}
           </div>
         </div>
