@@ -251,6 +251,30 @@ export default function EnglishHome() {
         </div>
       </section>
 
+      {/* ═══ RENTAL BANNER ═══ */}
+      <section className="py-20 md:py-28 relative overflow-hidden">
+        <div className="purple-glow absolute inset-0 pointer-events-none" />
+        <div className="max-w-4xl mx-auto px-6 relative z-10">
+          <div className="glass-card-purple rounded-2xl p-10 md:p-14 text-center">
+            <p className="section-label mb-4">New</p>
+            <h2 className="text-2xl md:text-4xl leading-[1.1] tracking-tight mb-4 font-extrabold">
+              A Premium Website
+              <br />
+              <span className="text-gradient">For a Monthly Fee</span>
+            </h2>
+            <p className="text-gray-400 text-base mb-8 max-w-xl mx-auto font-light leading-relaxed">
+              Zero upfront cost. Design, development, hosting, domain and maintenance — all included. Starting at 790 NIS/month.
+            </p>
+            <Link
+              href="/en/rental"
+              className="btn-primary px-8 py-4 text-sm font-semibold inline-block"
+            >
+              Plans & Pricing
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ═══ CTA ═══ */}
       <section className="py-32 md:py-44 relative overflow-hidden">
         <div className="purple-glow-strong absolute inset-0 pointer-events-none" />

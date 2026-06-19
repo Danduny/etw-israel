@@ -19,6 +19,9 @@ export default function Nav({ locale }: { locale: Locale }) {
           <Link href={`${prefix}/#portfolio`} className="text-sm text-gray-400 hover:text-white transition-colors hidden sm:block">
             {t.portfolio}
           </Link>
+          <Link href={`${prefix}/rental`} className="text-sm text-gray-400 hover:text-white transition-colors hidden sm:block">
+            {t.rental}
+          </Link>
           <Link href={`${prefix}/blog`} className="text-sm text-gray-400 hover:text-white transition-colors hidden sm:block">
             {t.blog}
           </Link>

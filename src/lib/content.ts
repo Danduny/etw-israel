@@ -5,6 +5,7 @@ export const content = {
     nav: {
       services: "שירותים",
       portfolio: "עבודות",
+      rental: "השכרת אתרים",
       blog: "בלוג",
       cta: "שיחת ייעוץ חינם",
       langSwitch: "EN",
@@ -62,6 +63,7 @@ export const content = {
     nav: {
       services: "Services",
       portfolio: "Work",
+      rental: "Website Rental",
       blog: "Blog",
       cta: "Free Consultation",
       langSwitch: "עב",
