@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 
 /* ── types ── */
 type SiteType = "business" | "store" | "portfolio" | "landing" | "unsure";
-type StyleType = "minimal" | "bold" | "classic" | "warm";
 type ContactMethod = "whatsapp" | "phone" | "email";
 
 /* ── data ── */
@@ -16,13 +15,6 @@ const siteTypes: { id: SiteType; icon: string; title: string; desc: string }[] =
   { id: "portfolio", icon: "🎨", title: "אתר תיק עבודות", desc: "מציגים את העבודות שלכם" },
   { id: "landing", icon: "🚀", title: "דף נחיתה", desc: "עמוד ממוקד המרות" },
   { id: "unsure", icon: "💬", title: "עוד לא בטוח/ה", desc: "נבין ביחד מה מתאים" },
-];
-
-const styleTypes: { id: StyleType; title: string; desc: string; gradient: string }[] = [
-  { id: "minimal", title: "נקי ומינימליסטי", desc: "רקע בהיר, טיפוגרפיה פשוטה, מרווח", gradient: "linear-gradient(135deg, #fafafa 0%, #e5e5e5 50%, #d4d4d4 100%)" },
-  { id: "bold", title: "נועז ומודרני", desc: "רקע כהה, צבעים חזקים, ניגודיות גבוהה", gradient: "linear-gradient(135deg, #0f0f23 0%, #895af6 50%, #6366f1 100%)" },
-  { id: "classic", title: "קלאסי ומקצועי", desc: "גוונים עמוקים, מראה עסקי ואלגנטי", gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)" },
-  { id: "warm", title: "חם ומזמין", desc: "צבעים חמים, אווירה ידידותית ונגישה", gradient: "linear-gradient(135deg, #fef3c7 0%, #f59e0b 50%, #d97706 100%)" },
 ];
 
 const extras = [
@@ -39,27 +31,19 @@ const tiers = [
   { name: "חנות אונליין", price: "1,990", desc: "פתרון מלא למסחר אלקטרוני", popular: false },
 ];
 
-const stepTitles = ["?מה אתם צריכים", "?איזה סגנון מדבר אליכם", "?משהו נוסף", "!בואו נדבר"];
+const stepTitles = ["?מה אתם צריכים", "?משהו נוסף", "!בואו נדבר"];
 
 export default function ConfiguratorPage() {
   const [step, setStep] = useState(0);
   const [direction, setDirection] = useState<"forward" | "back">("forward");
   const [animating, setAnimating] = useState(false);
 
-  /* step 1 */
   const [siteType, setSiteType] = useState<SiteType | null>(null);
-
-  /* step 2 */
-  const [style, setStyle] = useState<StyleType | null>(null);
   const [refUrls, setRefUrls] = useState(["", "", ""]);
   const [needDomain, setNeedDomain] = useState(false);
   const [businessName, setBusinessName] = useState("");
-
-  /* step 3 */
   const [selectedExtras, setSelectedExtras] = useState<string[]>(["seo"]);
   const [logoFile, setLogoFile] = useState<File | null>(null);
-
-  /* step 4 */
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -94,7 +78,7 @@ export default function ConfiguratorPage() {
   const handleSiteTypeSelect = (id: SiteType) => {
     setSiteType(id);
     if (id === "unsure") {
-      setTimeout(() => goTo(3), 200);
+      setTimeout(() => goTo(2), 200);
     } else {
       setTimeout(next, 200);
     }
@@ -128,9 +112,8 @@ export default function ConfiguratorPage() {
 
   const canProceed = () => {
     if (step === 0) return siteType !== null;
-    if (step === 1) return style !== null;
-    if (step === 2) return true;
-    if (step === 3) return name.trim() !== "" && phone.trim() !== "";
+    if (step === 1) return true;
+    if (step === 2) return name.trim() !== "" && phone.trim() !== "";
     return true;
   };
 
@@ -176,11 +159,11 @@ export default function ConfiguratorPage() {
 
           {/* ── progress bar ── */}
           <div className="mb-12">
-            <div className="flex items-center justify-between mb-3">
-              {[0, 1, 2, 3].map((i) => (
-                <div key={i} className="flex items-center gap-2">
+            <div className="flex items-center mb-3">
+              {[0, 1, 2].map((i) => (
+                <div key={i} className="flex items-center flex-1 last:flex-none">
                   <div
-                    className={`w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold transition-all duration-500 ${
+                    className={`w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold transition-all duration-500 shrink-0 ${
                       i <= step
                         ? "bg-brand text-white shadow-[0_0_20px_rgba(137,90,246,0.5)]"
                         : "bg-white/5 text-gray-600"
@@ -190,8 +173,8 @@ export default function ConfiguratorPage() {
                   >
                     {i + 1}
                   </div>
-                  {i < 3 && (
-                    <div className="w-8 sm:w-16 md:w-24 lg:w-32 h-[2px] bg-white/5 relative overflow-hidden">
+                  {i < 2 && (
+                    <div className="flex-1 h-[2px] bg-white/5 mx-2 relative overflow-hidden">
                       <div
                         className="absolute inset-y-0 right-0 bg-brand transition-all duration-700 ease-out"
                         style={{ width: i < step ? "100%" : "0%" }}
@@ -241,30 +224,43 @@ export default function ConfiguratorPage() {
                 </div>
               )}
 
-              {/* ═══ STEP 2: Style ═══ */}
+              {/* ═══ STEP 2: Extras ═══ */}
               {step === 1 && (
-                <div className="space-y-8">
-                  <div className="grid grid-cols-2 gap-4">
-                    {styleTypes.map((s) => (
+                <div className="space-y-6">
+                  <div className="space-y-3">
+                    {extras.map((extra) => (
                       <button
-                        key={s.id}
-                        onClick={() => setStyle(s.id)}
-                        className={`glass-card rounded-xl overflow-hidden transition-all duration-300 cursor-pointer group ${
-                          style === s.id
-                            ? "border-brand/50 bg-brand/10 shadow-[0_0_30px_rgba(137,90,246,0.2)] ring-2 ring-brand/30"
-                            : "hover:border-white/15"
+                        key={extra.id}
+                        onClick={() => toggleExtra(extra.id)}
+                        disabled={extra.locked}
+                        className={`w-full glass-card rounded-xl p-5 text-right flex items-center gap-4 transition-all duration-300 ${
+                          extra.locked
+                            ? "opacity-70 cursor-default"
+                            : selectedExtras.includes(extra.id)
+                            ? "border-brand/50 bg-brand/10 shadow-[0_0_20px_rgba(137,90,246,0.15)]"
+                            : "hover:border-white/15 cursor-pointer"
                         }`}
                       >
                         <div
-                          className="h-24 sm:h-32 w-full transition-transform duration-500 group-hover:scale-105"
-                          style={{ background: s.gradient }}
-                        />
-                        <div className="p-4 text-right">
-                          <h3 className="text-sm font-bold group-hover:text-brand-light transition-colors">
-                            {s.title}
-                          </h3>
-                          <p className="text-xs text-gray-500 font-light mt-1">{s.desc}</p>
+                          className={`w-6 h-6 rounded-md border-2 flex items-center justify-center shrink-0 transition-all duration-300 ${
+                            selectedExtras.includes(extra.id)
+                              ? "bg-brand border-brand"
+                              : "border-white/20"
+                          }`}
+                        >
+                          {selectedExtras.includes(extra.id) && (
+                            <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                            </svg>
+                          )}
                         </div>
+                        <div className="flex-1">
+                          <h3 className="text-sm font-bold">{extra.label}</h3>
+                          <p className="text-xs text-gray-500 font-light">{extra.desc}</p>
+                        </div>
+                        {extra.locked && (
+                          <span className="text-[10px] text-brand font-medium tracking-wider shrink-0">כלול</span>
+                        )}
                       </button>
                     ))}
                   </div>
@@ -319,63 +315,6 @@ export default function ConfiguratorPage() {
                     )}
                   </div>
 
-                  <div className="flex gap-3">
-                    <button onClick={back} className="btn-outline px-6 py-3 text-sm font-semibold text-gray-400 hover:text-white">
-                      חזרה
-                    </button>
-                    <button
-                      onClick={next}
-                      disabled={!canProceed()}
-                      className={`btn-primary px-8 py-3 text-sm font-semibold flex-1 ${!canProceed() ? "opacity-40 cursor-not-allowed" : ""}`}
-                      style={!canProceed() ? { animation: "none" } : {}}
-                    >
-                      המשיכו
-                    </button>
-                  </div>
-                </div>
-              )}
-
-              {/* ═══ STEP 3: Extras ═══ */}
-              {step === 2 && (
-                <div className="space-y-6">
-                  <div className="space-y-3">
-                    {extras.map((extra) => (
-                      <button
-                        key={extra.id}
-                        onClick={() => toggleExtra(extra.id)}
-                        disabled={extra.locked}
-                        className={`w-full glass-card rounded-xl p-5 text-right flex items-center gap-4 transition-all duration-300 ${
-                          extra.locked
-                            ? "opacity-70 cursor-default"
-                            : selectedExtras.includes(extra.id)
-                            ? "border-brand/50 bg-brand/10 shadow-[0_0_20px_rgba(137,90,246,0.15)]"
-                            : "hover:border-white/15 cursor-pointer"
-                        }`}
-                      >
-                        <div
-                          className={`w-6 h-6 rounded-md border-2 flex items-center justify-center shrink-0 transition-all duration-300 ${
-                            selectedExtras.includes(extra.id)
-                              ? "bg-brand border-brand"
-                              : "border-white/20"
-                          }`}
-                        >
-                          {selectedExtras.includes(extra.id) && (
-                            <svg className="w-3.5 h-3.5 text-white" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                            </svg>
-                          )}
-                        </div>
-                        <div className="flex-1">
-                          <h3 className="text-sm font-bold">{extra.label}</h3>
-                          <p className="text-xs text-gray-500 font-light">{extra.desc}</p>
-                        </div>
-                        {extra.locked && (
-                          <span className="text-[10px] text-brand font-medium tracking-wider shrink-0">כלול</span>
-                        )}
-                      </button>
-                    ))}
-                  </div>
-
                   <div className="glass-card rounded-xl p-6">
                     <h3 className="text-base font-bold mb-2">?יש לכם לוגו קיים</h3>
                     <p className="text-sm text-gray-500 font-light mb-4">העלו אותו כאן ונשתמש בו בעיצוב</p>
@@ -410,8 +349,8 @@ export default function ConfiguratorPage() {
                 </div>
               )}
 
-              {/* ═══ STEP 4: Contact + pricing ═══ */}
-              {step === 3 && (
+              {/* ═══ STEP 3: Contact + pricing ═══ */}
+              {step === 2 && (
                 <form
                   name="configurator-he"
                   method="POST"
@@ -423,7 +362,6 @@ export default function ConfiguratorPage() {
                   <input type="hidden" name="form-name" value="configurator-he" />
                   <input type="hidden" name="bot-field" />
                   <input type="hidden" name="site-type" value={siteType || ""} />
-                  <input type="hidden" name="style" value={style || ""} />
                   <input type="hidden" name="ref-urls" value={refUrls.filter(Boolean).join(", ")} />
                   <input type="hidden" name="need-domain" value={needDomain ? "yes" : "no"} />
                   <input type="hidden" name="business-name-domain" value={businessName} />

@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 
 /* ── types ── */
 type SiteType = "business" | "store" | "portfolio" | "landing" | "unsure";
-type StyleType = "minimal" | "bold" | "classic" | "warm";
 type ContactMethod = "whatsapp" | "phone" | "email";
 
 /* ── data ── */
@@ -16,13 +15,6 @@ const siteTypes: { id: SiteType; icon: string; title: string; desc: string }[] =
   { id: "portfolio", icon: "🎨", title: "Portfolio Site", desc: "Showcase your work" },
   { id: "landing", icon: "🚀", title: "Landing Page", desc: "Conversion-focused single page" },
   { id: "unsure", icon: "💬", title: "I'm not sure yet", desc: "We'll figure it out together" },
-];
-
-const styleTypes: { id: StyleType; title: string; desc: string; gradient: string }[] = [
-  { id: "minimal", title: "Clean & Minimal", desc: "White space, light tones, simple typography", gradient: "linear-gradient(135deg, #fafafa 0%, #e5e5e5 50%, #d4d4d4 100%)" },
-  { id: "bold", title: "Bold & Modern", desc: "Dark backgrounds, vibrant accents, strong contrast", gradient: "linear-gradient(135deg, #0f0f23 0%, #895af6 50%, #6366f1 100%)" },
-  { id: "classic", title: "Classic & Professional", desc: "Deep tones, elegant layout, corporate feel", gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)" },
-  { id: "warm", title: "Warm & Inviting", desc: "Earthy colors, friendly feel, approachable design", gradient: "linear-gradient(135deg, #fef3c7 0%, #f59e0b 50%, #d97706 100%)" },
 ];
 
 const extras = [
@@ -39,27 +31,19 @@ const tiers = [
   { name: "E-commerce", price: "1,990", desc: "Full online store solution", popular: false },
 ];
 
-const stepTitles = ["What do you need?", "What style speaks to you?", "Anything extra?", "Let's talk!"];
+const stepTitles = ["What do you need?", "Anything extra?", "Let's talk!"];
 
 export default function ConfiguratorPageEN() {
   const [step, setStep] = useState(0);
   const [direction, setDirection] = useState<"forward" | "back">("forward");
   const [animating, setAnimating] = useState(false);
 
-  /* step 1 */
   const [siteType, setSiteType] = useState<SiteType | null>(null);
-
-  /* step 2 */
-  const [style, setStyle] = useState<StyleType | null>(null);
   const [refUrls, setRefUrls] = useState(["", "", ""]);
   const [needDomain, setNeedDomain] = useState(false);
   const [businessName, setBusinessName] = useState("");
-
-  /* step 3 */
   const [selectedExtras, setSelectedExtras] = useState<string[]>(["seo"]);
   const [logoFile, setLogoFile] = useState<File | null>(null);
-
-  /* step 4 */
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -94,7 +78,7 @@ export default function ConfiguratorPageEN() {
   const handleSiteTypeSelect = (id: SiteType) => {
     setSiteType(id);
     if (id === "unsure") {
-      setTimeout(() => goTo(3), 200);
+      setTimeout(() => goTo(2), 200);
     } else {
       setTimeout(next, 200);
     }
@@ -128,9 +112,8 @@ export default function ConfiguratorPageEN() {
 
   const canProceed = () => {
     if (step === 0) return siteType !== null;
-    if (step === 1) return style !== null;
-    if (step === 2) return true;
-    if (step === 3) return name.trim() !== "" && phone.trim() !== "";
+    if (step === 1) return true;
+    if (step === 2) return name.trim() !== "" && phone.trim() !== "";
     return true;
   };
 
@@ -176,11 +159,11 @@ export default function ConfiguratorPageEN() {
 
           {/* ── progress bar ── */}
           <div className="mb-12">
-            <div className="flex items-center justify-between mb-3">
-              {[0, 1, 2, 3].map((i) => (
-                <div key={i} className="flex items-center gap-2">
+            <div className="flex items-center mb-3">
+              {[0, 1, 2].map((i) => (
+                <div key={i} className="flex items-center flex-1 last:flex-none">
                   <div
-                    className={`w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold transition-all duration-500 ${
+                    className={`w-9 h-9 shrink-0 rounded-full flex items-center justify-center text-sm font-bold transition-all duration-500 ${
                       i <= step
                         ? "bg-brand text-white shadow-[0_0_20px_rgba(137,90,246,0.5)]"
                         : "bg-white/5 text-gray-600"
@@ -189,8 +172,8 @@ export default function ConfiguratorPageEN() {
                   >
                     {i + 1}
                   </div>
-                  {i < 3 && (
-                    <div className="w-8 sm:w-16 md:w-24 lg:w-32 h-[2px] bg-white/5 relative overflow-hidden">
+                  {i < 2 && (
+                    <div className="flex-1 h-[2px] bg-white/5 mx-2 relative overflow-hidden">
                       <div
                         className="absolute inset-y-0 left-0 bg-brand transition-all duration-700 ease-out"
                         style={{ width: i < step ? "100%" : "0%" }}
@@ -240,101 +223,8 @@ export default function ConfiguratorPageEN() {
                 </div>
               )}
 
-              {/* ═══ STEP 2: Style ═══ */}
+              {/* ═══ STEP 2: Extras ═══ */}
               {step === 1 && (
-                <div className="space-y-8">
-                  <div className="grid grid-cols-2 gap-4">
-                    {styleTypes.map((s) => (
-                      <button
-                        key={s.id}
-                        onClick={() => setStyle(s.id)}
-                        className={`glass-card rounded-xl overflow-hidden transition-all duration-300 cursor-pointer group ${
-                          style === s.id
-                            ? "border-brand/50 bg-brand/10 shadow-[0_0_30px_rgba(137,90,246,0.2)] ring-2 ring-brand/30"
-                            : "hover:border-white/15"
-                        }`}
-                      >
-                        <div
-                          className="h-24 sm:h-32 w-full transition-transform duration-500 group-hover:scale-105"
-                          style={{ background: s.gradient }}
-                        />
-                        <div className="p-4 text-left">
-                          <h3 className="text-sm font-bold group-hover:text-brand-light transition-colors">
-                            {s.title}
-                          </h3>
-                          <p className="text-xs text-gray-500 font-light mt-1">{s.desc}</p>
-                        </div>
-                      </button>
-                    ))}
-                  </div>
-
-                  <div className="glass-card rounded-xl p-6 space-y-4">
-                    <h3 className="text-base font-bold">Websites you like (optional)</h3>
-                    <p className="text-sm text-gray-500 font-light">Paste up to 3 website URLs for inspiration</p>
-                    <div className="space-y-3">
-                      {refUrls.map((url, i) => (
-                        <input
-                          key={i}
-                          type="url"
-                          placeholder="https://example.com"
-                          value={url}
-                          onChange={(e) => {
-                            const updated = [...refUrls];
-                            updated[i] = e.target.value;
-                            setRefUrls(updated);
-                          }}
-                          className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder:text-gray-600 focus:border-brand/50 focus:outline-none focus:ring-1 focus:ring-brand/30 transition-all"
-                          style={{ fontFamily: "Inter" }}
-                        />
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="glass-card rounded-xl p-6">
-                    <div className="flex items-center justify-between mb-4">
-                      <h3 className="text-base font-bold">Need a domain?</h3>
-                      <button
-                        onClick={() => setNeedDomain(!needDomain)}
-                        className={`w-12 h-7 rounded-full relative transition-all duration-300 ${
-                          needDomain ? "bg-brand" : "bg-white/10"
-                        }`}
-                      >
-                        <div
-                          className={`w-5 h-5 bg-white rounded-full absolute top-1 transition-all duration-300 ${
-                            needDomain ? "left-6" : "left-1"
-                          }`}
-                        />
-                      </button>
-                    </div>
-                    {needDomain && (
-                      <input
-                        type="text"
-                        placeholder="Your business name (we'll find a matching domain)"
-                        value={businessName}
-                        onChange={(e) => setBusinessName(e.target.value)}
-                        className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder:text-gray-600 focus:border-brand/50 focus:outline-none focus:ring-1 focus:ring-brand/30 transition-all"
-                      />
-                    )}
-                  </div>
-
-                  <div className="flex gap-3">
-                    <button onClick={back} className="btn-outline px-6 py-3 text-sm font-semibold text-gray-400 hover:text-white">
-                      Back
-                    </button>
-                    <button
-                      onClick={next}
-                      disabled={!canProceed()}
-                      className={`btn-primary px-8 py-3 text-sm font-semibold flex-1 ${!canProceed() ? "opacity-40 cursor-not-allowed" : ""}`}
-                      style={!canProceed() ? { animation: "none" } : {}}
-                    >
-                      Continue
-                    </button>
-                  </div>
-                </div>
-              )}
-
-              {/* ═══ STEP 3: Extras ═══ */}
-              {step === 2 && (
                 <div className="space-y-6">
                   <div className="space-y-3">
                     {extras.map((extra) => (
@@ -394,6 +284,55 @@ export default function ConfiguratorPageEN() {
                     </label>
                   </div>
 
+                  <div className="glass-card rounded-xl p-6 space-y-4">
+                    <h3 className="text-base font-bold">Websites you like (optional)</h3>
+                    <p className="text-sm text-gray-500 font-light">Paste up to 3 website URLs for inspiration</p>
+                    <div className="space-y-3">
+                      {refUrls.map((url, i) => (
+                        <input
+                          key={i}
+                          type="url"
+                          placeholder="https://example.com"
+                          value={url}
+                          onChange={(e) => {
+                            const updated = [...refUrls];
+                            updated[i] = e.target.value;
+                            setRefUrls(updated);
+                          }}
+                          className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder:text-gray-600 focus:border-brand/50 focus:outline-none focus:ring-1 focus:ring-brand/30 transition-all"
+                          style={{ fontFamily: "Inter" }}
+                        />
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="glass-card rounded-xl p-6">
+                    <div className="flex items-center justify-between mb-4">
+                      <h3 className="text-base font-bold">Need a domain?</h3>
+                      <button
+                        onClick={() => setNeedDomain(!needDomain)}
+                        className={`w-12 h-7 rounded-full relative transition-all duration-300 ${
+                          needDomain ? "bg-brand" : "bg-white/10"
+                        }`}
+                      >
+                        <div
+                          className={`w-5 h-5 bg-white rounded-full absolute top-1 transition-all duration-300 ${
+                            needDomain ? "left-6" : "left-1"
+                          }`}
+                        />
+                      </button>
+                    </div>
+                    {needDomain && (
+                      <input
+                        type="text"
+                        placeholder="Your business name (we'll find a matching domain)"
+                        value={businessName}
+                        onChange={(e) => setBusinessName(e.target.value)}
+                        className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder:text-gray-600 focus:border-brand/50 focus:outline-none focus:ring-1 focus:ring-brand/30 transition-all"
+                      />
+                    )}
+                  </div>
+
                   <div className="flex gap-3">
                     <button onClick={back} className="btn-outline px-6 py-3 text-sm font-semibold text-gray-400 hover:text-white">
                       Back
@@ -408,8 +347,8 @@ export default function ConfiguratorPageEN() {
                 </div>
               )}
 
-              {/* ═══ STEP 4: Contact + pricing ═══ */}
-              {step === 3 && (
+              {/* ═══ STEP 3: Contact + pricing ═══ */}
+              {step === 2 && (
                 <form
                   name="configurator-en"
                   method="POST"
@@ -421,7 +360,6 @@ export default function ConfiguratorPageEN() {
                   <input type="hidden" name="form-name" value="configurator-en" />
                   <input type="hidden" name="bot-field" />
                   <input type="hidden" name="site-type" value={siteType || ""} />
-                  <input type="hidden" name="style" value={style || ""} />
                   <input type="hidden" name="ref-urls" value={refUrls.filter(Boolean).join(", ")} />
                   <input type="hidden" name="need-domain" value={needDomain ? "yes" : "no"} />
                   <input type="hidden" name="business-name-domain" value={businessName} />
