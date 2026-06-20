@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Website Rental for Businesses | ETW Israel",
   description:
-    "A premium custom website for a monthly fee. Zero upfront cost. Design, development, hosting, domain and maintenance — all included.",
+    "Website rental for businesses in Israel. Professional website from 690 NIS/month, zero setup cost. Design, development, hosting, domain and maintenance included. Ready in 7 days.",
 };
 
 const steps = [
