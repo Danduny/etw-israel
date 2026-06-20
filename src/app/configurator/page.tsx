@@ -18,11 +18,11 @@ const siteTypes: { id: SiteType; icon: string; title: string; desc: string }[] =
   { id: "unsure", icon: "💬", title: "עוד לא בטוח/ה", desc: "נבין ביחד מה מתאים" },
 ];
 
-const styleTypes: { id: StyleType; title: string; gradient: string }[] = [
-  { id: "minimal", title: "נקי ומינימליסטי", gradient: "linear-gradient(135deg, #fafafa 0%, #e5e5e5 50%, #d4d4d4 100%)" },
-  { id: "bold", title: "נועז ומודרני", gradient: "linear-gradient(135deg, #0f0f23 0%, #895af6 50%, #6366f1 100%)" },
-  { id: "classic", title: "קלאסי ומקצועי", gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)" },
-  { id: "warm", title: "חם ומזמין", gradient: "linear-gradient(135deg, #fef3c7 0%, #f59e0b 50%, #d97706 100%)" },
+const styleTypes: { id: StyleType; title: string; desc: string; gradient: string }[] = [
+  { id: "minimal", title: "נקי ומינימליסטי", desc: "רקע בהיר, טיפוגרפיה פשוטה, מרווח", gradient: "linear-gradient(135deg, #fafafa 0%, #e5e5e5 50%, #d4d4d4 100%)" },
+  { id: "bold", title: "נועז ומודרני", desc: "רקע כהה, צבעים חזקים, ניגודיות גבוהה", gradient: "linear-gradient(135deg, #0f0f23 0%, #895af6 50%, #6366f1 100%)" },
+  { id: "classic", title: "קלאסי ומקצועי", desc: "גוונים עמוקים, מראה עסקי ואלגנטי", gradient: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)" },
+  { id: "warm", title: "חם ומזמין", desc: "צבעים חמים, אווירה ידידותית ונגישה", gradient: "linear-gradient(135deg, #fef3c7 0%, #f59e0b 50%, #d97706 100%)" },
 ];
 
 const extras = [
@@ -191,7 +191,7 @@ export default function ConfiguratorPage() {
                     {i + 1}
                   </div>
                   {i < 3 && (
-                    <div className="hidden sm:block w-16 md:w-24 lg:w-32 h-[2px] bg-white/5 relative overflow-hidden">
+                    <div className="w-8 sm:w-16 md:w-24 lg:w-32 h-[2px] bg-white/5 relative overflow-hidden">
                       <div
                         className="absolute inset-y-0 right-0 bg-brand transition-all duration-700 ease-out"
                         style={{ width: i < step ? "100%" : "0%" }}
@@ -251,7 +251,7 @@ export default function ConfiguratorPage() {
                         onClick={() => setStyle(s.id)}
                         className={`glass-card rounded-xl overflow-hidden transition-all duration-300 cursor-pointer group ${
                           style === s.id
-                            ? "border-brand/50 shadow-[0_0_30px_rgba(137,90,246,0.2)]"
+                            ? "border-brand/50 bg-brand/10 shadow-[0_0_30px_rgba(137,90,246,0.2)] ring-2 ring-brand/30"
                             : "hover:border-white/15"
                         }`}
                       >
@@ -263,6 +263,7 @@ export default function ConfiguratorPage() {
                           <h3 className="text-sm font-bold group-hover:text-brand-light transition-colors">
                             {s.title}
                           </h3>
+                          <p className="text-xs text-gray-500 font-light mt-1">{s.desc}</p>
                         </div>
                       </button>
                     ))}
