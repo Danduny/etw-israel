@@ -82,24 +82,24 @@ const faqs = [
 
 const tiers = [
   {
-    name: "Basic",
-    price: "790",
-    desc: "Branding site up to 5 pages",
+    name: "Landing Page",
+    price: "690",
+    desc: "Conversion-focused single page for your business",
     features: [
       "Custom design",
-      "Up to 5 pages",
+      "Single focused page",
       "Mobile responsive",
       "Hosting + SSL + domain",
       "1 content update/month",
     ],
   },
   {
-    name: "Business",
-    price: "990",
-    desc: "Advanced site with extra features",
+    name: "Business Website",
+    price: "1,290",
+    desc: "Professional site that brings customers",
     popular: true,
     features: [
-      "Everything in Basic",
+      "Everything in Landing Page",
       "Up to 10 pages",
       "Contact form + integrations",
       "Built-in basic SEO",
@@ -108,14 +108,14 @@ const tiers = [
     ],
   },
   {
-    name: "Premium",
-    price: "1,290",
-    desc: "Full solution for businesses that want more",
+    name: "E-commerce",
+    price: "1,990",
+    desc: "Full online store solution",
     features: [
       "Everything in Business",
       "Unlimited pages",
-      "Blog / news section",
-      "Advanced animations & effects",
+      "Product catalog + payments",
+      "Inventory & shipping management",
       "3 content updates/month",
       "Monthly performance report",
     ],

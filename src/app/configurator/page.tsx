@@ -34,9 +34,9 @@ const extras = [
 ];
 
 const tiers = [
-  { name: "בסיסי", price: "790", desc: "אתר תדמית עד 5 עמודים", popular: false },
-  { name: "עסקי", price: "990", desc: "אתר מתקדם עם פיצ׳רים נוספים", popular: true },
-  { name: "פרימיום", price: "1,290", desc: "פתרון מלא לעסקים שרוצים יותר", popular: false },
+  { name: "דף נחיתה", price: "690", desc: "עמוד ממוקד המרות לעסק שלכם", popular: false },
+  { name: "אתר עסקי", price: "1,290", desc: "אתר מקצועי שמביא לקוחות", popular: true },
+  { name: "חנות אונליין", price: "1,990", desc: "פתרון מלא למסחר אלקטרוני", popular: false },
 ];
 
 const stepTitles = ["?מה אתם צריכים", "?איזה סגנון מדבר אליכם", "?משהו נוסף", "!בואו נדבר"];
@@ -65,7 +65,7 @@ export default function ConfiguratorPage() {
   const [email, setEmail] = useState("");
   const [bizDesc, setBizDesc] = useState("");
   const [contactMethod, setContactMethod] = useState<ContactMethod>("whatsapp");
-  const [selectedTier, setSelectedTier] = useState("עסקי");
+  const [selectedTier, setSelectedTier] = useState("אתר עסקי");
 
   const [submitted, setSubmitted] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);

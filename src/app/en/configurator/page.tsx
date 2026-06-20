@@ -34,9 +34,9 @@ const extras = [
 ];
 
 const tiers = [
-  { name: "Basic", price: "790", desc: "Up to 5-page business site", popular: false },
-  { name: "Business", price: "990", desc: "Advanced site with extra features", popular: true },
-  { name: "Premium", price: "1,290", desc: "Full solution for growing businesses", popular: false },
+  { name: "Landing Page", price: "690", desc: "Conversion-focused single page", popular: false },
+  { name: "Business Website", price: "1,290", desc: "Professional site that brings customers", popular: true },
+  { name: "E-commerce", price: "1,990", desc: "Full online store solution", popular: false },
 ];
 
 const stepTitles = ["What do you need?", "What style speaks to you?", "Anything extra?", "Let's talk!"];
@@ -65,7 +65,7 @@ export default function ConfiguratorPageEN() {
   const [email, setEmail] = useState("");
   const [bizDesc, setBizDesc] = useState("");
   const [contactMethod, setContactMethod] = useState<ContactMethod>("whatsapp");
-  const [selectedTier, setSelectedTier] = useState("Business");
+  const [selectedTier, setSelectedTier] = useState("Business Website");
 
   const [submitted, setSubmitted] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
