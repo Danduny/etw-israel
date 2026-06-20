@@ -263,7 +263,7 @@ export default function EnglishHome() {
               <span className="text-gradient">For a Monthly Fee</span>
             </h2>
             <p className="text-gray-400 text-base mb-8 max-w-xl mx-auto font-light leading-relaxed">
-              Zero upfront cost. Design, development, hosting, domain and maintenance — all included. Starting at 790 NIS/month.
+              Zero upfront cost. Design, development, hosting, domain and maintenance — all included. Starting at 690 NIS/month.
             </p>
             <Link
               href="/en/rental"

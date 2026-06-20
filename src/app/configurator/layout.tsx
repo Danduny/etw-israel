@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "בונים אתר — קונפיגורטור | ETW Israel",
   description:
-    "בנו את הבריף לאתר שלכם ב-4 צעדים פשוטים. בחרו סוג, סגנון, תוספות וקבלו הצעה מותאמת אישית תוך 24 שעות.",
+    "בנו את הבריף לאתר שלכם ב-3 צעדים פשוטים. בחרו סוג, תוספות וקבלו הצעה מותאמת אישית תוך 24 שעות.",
   openGraph: {
     title: "בונים אתר — קונפיגורטור | ETW Israel",
     description:
-      "בנו את הבריף לאתר שלכם ב-4 צעדים פשוטים. הצעה מותאמת תוך 24 שעות.",
+      "בנו את הבריף לאתר שלכם ב-3 צעדים פשוטים. הצעה מותאמת תוך 24 שעות.",
     url: "https://etw.co.il/configurator",
     siteName: "ETW Israel",
     locale: "he_IL",

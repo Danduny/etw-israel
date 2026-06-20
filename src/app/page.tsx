@@ -269,7 +269,7 @@ export default function Home() {
               <span className="text-gradient">בתשלום חודשי בלבד</span>
             </h2>
             <p className="text-gray-400 text-base mb-8 max-w-xl mx-auto font-light leading-relaxed">
-              בלי השקעה ראשונית. עיצוב, פיתוח, אחסון, דומיין ותחזוקה — הכל כלול. החל מ-790 ₪ לחודש.
+              בלי השקעה ראשונית. עיצוב, פיתוח, אחסון, דומיין ותחזוקה — הכל כלול. החל מ-690 ₪ לחודש.
             </p>
             <Link
               href="/rental"
