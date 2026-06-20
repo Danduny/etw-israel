@@ -25,6 +25,9 @@ export default function Nav({ locale }: { locale: Locale }) {
           <Link href={`${prefix}/blog`} className="text-sm text-gray-400 hover:text-white transition-colors hidden sm:block">
             {t.blog}
           </Link>
+          <Link href={`${prefix}/configurator`} className="text-sm text-gray-400 hover:text-white transition-colors hidden sm:block">
+            {t.configurator}
+          </Link>
           <Link
             href={t.langHref}
             className="text-xs text-gray-500 hover:text-white transition-colors font-medium tracking-wide"
