@@ -888,144 +888,154 @@ Want a free professional audit? [Book a call](https://calendly.com/dan-etw/30min
     },
     "email-marketing-roi": {
       slug: "email-marketing-roi",
-      title: "Email Marketing: Why It's Still the Most Profitable Channel in 2026",
+      title: "Email Marketing ROI: The Channel That Pays You Back 42x",
       date: "2026-06-25",
-      readTime: "6 min",
+      readTime: "7 min",
       category: "Marketing",
-      metaDescription: "4,200% ROI. Why businesses neglecting email are leaving money on the table and how to start without a big budget.",
+      metaDescription: "For every shekel you put into email marketing, you get 42 back. Here is why Israeli small businesses ignore their most profitable channel and how to fix that.",
       content: `
-## 4,200% Return on Investment. Not a Typo.
+## The Channel That Works While You Sleep
 
-For every shekel you invest in email marketing, you get 42 back on average. No other marketing channel comes close. Not Facebook, not Google Ads, not Instagram.
+For every shekel invested in email marketing, businesses get an average of 42 back. That is a 4,200% return. No other channel, paid or organic, comes close to that number. Not Facebook ads. Not Google. Not Instagram reels.
 
-Yet most small businesses in Israel ignore email entirely. They pour thousands of shekels into paid campaigns, chase followers on social media, and forget they already have a list of people who bought from them.
+And yet, if you walk into most small businesses in Israel and ask about their email list, you will hear one of three answers: "We do not have one," "We have a list somewhere but we do not send anything," or "We tried it once and it did not work."
 
-## Why Email Works So Well
+This article is about why email marketing is the most underused growth tool available to Israeli SMBs and what it actually takes to make it work.
+
+## Why Email Beats Every Other Channel
 
 ### You Own the Audience
 
-On social media, you rent an audience. The algorithm decides who sees your post, and the moment you stop paying, you vanish. Your email list is an asset you own. Nobody can take it away.
+When you build a following on Instagram or Facebook, you are renting attention. The algorithm controls what gets seen, the platform can change the rules tomorrow, and if your account gets restricted, you are gone. Your email list belongs to you. You export it as a CSV, take it anywhere, and nobody can take it from you.
 
-### High Conversion Rates
+For Russian-speaking business owners in Israel who often relied on Facebook communities and WhatsApp groups to get clients, this is especially important. Those channels are noisy. A well-written email to 500 people who asked to hear from you lands differently.
 
-An average email gets a 20-25% open rate and 3-5% click-through rate. An organic Facebook post? 2-5% reach of your followers. The difference is clear.
+### Open Rates Are Not Dead
 
-### Low Cost
+The average email open rate in 2026 is around 22%. The average reach of an organic Facebook post is under 4% of your followers. When you send an email, most of your list actually sees it.
 
-Platforms like Mailchimp and Brevo offer free plans up to 500 or 1,000 contacts. Even paid plans run ₪100-₪300/month. Compared to ₪3,000-₪10,000/month on paid ads, that is nothing.
+Compare that to spending 2,000 NIS on a boosted post that reaches people who never asked to hear from you, then disappears the moment your budget runs out.
 
-## How to Start (Even With Zero Experience)
+### The Cost Is Negligible
 
-### Step 1: Build a List
+Platforms like Brevo (formerly Sendinblue) and Mailchimp have free plans that support up to 1,000 contacts. Once you grow past that, paid plans start around 100-200 NIS per month. For a business doing 30,000 NIS per month in revenue, that is noise.
 
-Start with what you have. Existing customers, people who contacted you, followers who left their details. Add a signup form on your site with a clear value offer: "Get 10% off your first order" or "Free guide to...".
+## What a Real Email System Looks Like
 
-### Step 2: Pick a Platform
+Most businesses think "email marketing" means sending a newsletter once a month. That is not what drives results. A real system has three layers.
 
-For beginners, Brevo (formerly Sendinblue) is the best choice for Israeli businesses. RTL support for Hebrew, clean interface, and a generous free plan.
+### 1. The Welcome Sequence
 
-### Step 3: Write Emails People Want to Read
+When someone joins your list, whether they bought something, signed up on your site, or came through a lead magnet, they get an automated sequence. Usually 3-5 emails over 7-10 days that introduce your business, share something valuable, and make a relevant offer. This runs automatically for every new subscriber without you touching anything.
 
-Not promotions every time. Not boring newsletters. Deliver value. Share expertise, tips, behind-the-scenes of your business. The ratio that works: 80% value, 20% selling.
+### 2. The Ongoing Relationship
 
-### Step 4: Send Consistently
+One email per week or biweekly. Not promotions every time. The ratio that works: roughly 80% valuable content, 20% commercial offers. Share expertise, answer common questions, go behind the scenes of your business. When you do sell, people are warmed up and ready.
 
-Once a week is perfect. Biweekly is fine. Monthly is the minimum. The key is not to disappear and then come back with "CRAZY SALE!!!".
+For Israeli businesses, content that speaks to local context converts better. "3 things to check before hiring a contractor in Tel Aviv" outperforms a generic newsletter every time.
 
-## Mistakes That Cost You
+### 3. Behavioral Triggers
 
-**Buying email lists.** It does not work. People who never asked to hear from you will not open your email, will report it as spam, and will tank your sender reputation.
+These are the most powerful emails and the most underused. Abandoned cart emails. Post-purchase follow-ups. Re-engagement campaigns for people who have not opened anything in 60 days. These send automatically based on what a subscriber does or does not do. Done right, they recover sales that would have been lost.
 
-**Generic subject lines.** "June Newsletter" interests nobody. "3 mistakes costing you ₪5,000/month" does.
+## The Mistakes That Kill Results
 
-**No segmentation.** A repeat customer needs a different email than a new lead. Segment your list into groups and tailor the message.
+**Buying a list.** This always ends the same way: low open rates, spam complaints, your domain gets blacklisted, and you start from zero with a damaged reputation. There are no shortcuts on list building.
 
-## What It Costs With Professionals
+**Sending from a free Gmail account.** If your emails come from businessname@gmail.com instead of name@yourdomain.com, you look unprofessional and your deliverability will be poor. Always send from your own domain.
 
-At ETW we build complete email marketing systems: strategy, template design, copywriting, automations and reporting. Starting at ₪1,900/month.
+**Subject lines that say nothing.** "June Update" and "Newsletter Issue 7" go unread. Subject lines that trigger curiosity or name a specific problem get opened. "The reason your website is not getting calls" beats "Our latest news" every time.
 
-Want to know how much your list is actually worth? [Book a free call](https://calendly.com/dan-etw/30min) and we will show you exactly what is possible.
+**No segmentation.** A customer who bought six months ago and a new lead who just signed up need completely different messages. Treating your entire list the same wastes good attention on the wrong message at the wrong time.
+
+## What to Expect in Terms of Results
+
+A small list of 200-300 engaged contacts can consistently generate more revenue than a social following of 5,000 people. The conversion rate on email is higher, the cost is lower, and the relationship is direct.
+
+Expect to spend 3-4 months building the habit and the list before you see compounding results. Month one is setup and first sends. Month three is when you start seeing people reply to ask about your services or buy from a follow-up sequence you set up once.
+
+## How We Handle This for Our Clients
+
+At ETW, email marketing setup is included in every website we build. Your site launches with a working signup form, a connected platform, and a basic welcome sequence. That is the foundation.
+
+If you want a full system, strategy, copywriting, monthly sends and optimization, that starts at 1,900 NIS per month as a managed service. And because we offer a 14-day launch guarantee, you are not waiting months to have something working.
+
+If you already have a website and just need the email layer built out, [book a free call](https://calendly.com/dan-etw/30min) and we will tell you exactly what your list is currently worth and what it could be worth in 90 days.
 `,
     },
     "wix-vs-custom-website": {
       slug: "wix-vs-custom-website",
-      title: "Wix vs Custom Website - What's Better for Your Business?",
+      title: "Wix vs Custom Website: An Honest Comparison for Israeli Business Owners",
       date: "2026-06-28",
       readTime: "8 min",
       category: "Guides",
-      metaDescription: "An honest comparison between DIY platforms and a custom-built site. Pros, cons and when each one is worth it.",
+      metaDescription: "Wix or custom-built? We break down speed, SEO, cost and ownership so you can make the right call for your business in Israel.",
       content: `
-## The Short Answer
+## The Comparison Nobody Gives You Straight
 
-If you need a site today with zero budget and zero expectations, Wix is fine. For every other case, a custom website will serve you better.
+Most articles comparing Wix to custom websites are written by agencies trying to sell you a custom website, or by Wix affiliates trying to get you on the platform. This one is neither. We build custom websites, but we will tell you exactly when Wix is the smarter choice.
 
-Now the long answer.
+The short version: if you need something live today with zero budget, Wix works. For everything else, a custom site will serve your business better over time. Here is why, with real numbers.
 
-## What Is Wix, Really?
+## Speed: The Difference You Feel Immediately
 
-Wix is a website builder with a drag-and-drop editor. You pick a template, change the text and images, and you have a website. Simple, fast, cheap.
+Load a Wix site and a custom-built site side by side on a mobile connection. The difference is visible.
 
-The price: ₪50-₪150/month, depending on the plan.
+Wix sites average 3-6 seconds to load. That is the platform's baseline. The code it loads includes scripts for the editor, apps you may not even use, and animations baked into the templates. You cannot remove them.
 
-## What Is a Custom Website?
+A custom-built site, optimized properly, loads in 1-2 seconds. Every line of code exists because it has to be there.
 
-A site built from scratch, in code, with a unique design that no other business has. Everything is tailored to your needs, your audience, and your business goals.
+Why does this matter for your business? Google penalizes slow sites in search rankings. And every additional second of load time costs you about 7% in conversions. If your site gets 1,000 visitors per month and converts at 3%, a 3-second delay versus a 1-second load could be costing you 6 customers monthly before you even start.
 
-The price: ₪4,900-₪15,000+ one-time, depending on scope.
+## SEO: Where the Gap Gets Expensive
 
-## Head-to-Head Comparison
+Wix has improved a lot in recent years. It is no longer unusable for SEO. But it is still limited in ways that matter if you are competing for customers in Israel.
 
-### Loading Speed
+On Wix, you have limited control over URL structure. Schema markup is basic. The platform generates code that can confuse search engine crawlers. And the speed issue mentioned above directly affects rankings, because Google uses Core Web Vitals as a ranking signal.
 
-**Wix:** 3-6 seconds average. The code is heavy, the platform loads scripts you do not need.
+On a custom site, every technical parameter is under your control. URL structure, canonical tags, structured data, page speed, hreflang tags for Hebrew and English versions of your site. In the Israeli market, where you are often competing in both Hebrew and Russian-speaking communities as well as English-language search, this technical flexibility is not optional. It is the foundation.
 
-**Custom:** 1-2 seconds. Every line of code exists because it has to.
+## Design: Template vs. Identity
 
-Why it matters: Google favors fast sites. Every extra second of loading time drops your conversion rate by 7%.
+Wix templates are professionally designed. They look clean. They work on mobile. But they are used by tens of thousands of businesses. Your potential customer has almost certainly seen the same template structure on another site, and that familiarity signals "generic."
 
-### SEO
+A custom-built site can be as simple or complex as your business needs. What it cannot be is something that looks like everyone else. Your brand shows through in every element, from the typography to the way information is organized. That first impression determines whether a new visitor stays or bounces.
 
-**Wix:** Has improved a lot in recent years, but still limited. Hard to control URLs, limited Schema markup, speed hurts ranking.
+For Russian-speaking business owners in Israel who are trying to build reputation in a market where word-of-mouth is everything, looking different is not a vanity exercise. It is a competitive signal.
 
-**Custom:** Full control. Every tag, every URL, every technical parameter is tuned to your SEO strategy.
+## Ownership: The Risk Nobody Talks About
 
-In the Israeli market, where competition for Hebrew keywords keeps growing, this technical edge is critical.
+When you build on Wix, the site lives on Wix's infrastructure. If Wix raises prices, which they have done repeatedly, you pay or you lose your site. If they discontinue a feature you depend on, you adapt or you rebuild. If you want to move to a different platform because you have outgrown Wix's capabilities, you cannot export your design. You start over.
 
-### Design
+With a custom website, you own the code. You host it wherever you want. You switch providers whenever you find a better deal. You add features when you need them. The site grows with your business instead of constraining it.
 
-**Wix:** Nice, but limited to templates. Eventually every site looks the same. Your customers can tell, even if they cannot articulate why.
+## The Real Cost Comparison Over Three Years
 
-**Custom:** Completely unique. Your brand shows in every pixel. That is what creates a strong first impression and differentiates you from competitors.
+Here is the math people do not run before making a decision.
 
-### Ownership and Control
+**Wix Business plan:** 150 NIS per month over 36 months is 5,400 NIS. Add the paid apps most real businesses need, such as advanced forms, booking systems, email integrations, and you are realistically at 7,000-9,000 NIS. And at the end of those 3 years, you own nothing you can take with you.
 
-**Wix:** The site is not really yours. It lives on Wix's servers. If they raise prices, change terms, or kill a feature you depend on, there is nothing you can do. You cannot export the site and move to another platform.
+**Custom website, one-time:** Our Business plan starts at 9,900 NIS. Add hosting at around 300 NIS per month and you are at 20,700 NIS over three years. More expensive on paper. But the site is yours, the SEO equity you build belongs to you, and there are no platform surprises.
 
-**Custom:** Your code. Your design. The site on whatever server you choose. Want to switch hosting? Go ahead. Want to add a complex feature? Possible.
+**Custom website, rental model:** This is where it gets interesting for cash-flow-conscious businesses. Our rental model starts at 1,290 NIS per month for a Business website. That includes design, development, hosting, maintenance, and updates. No large upfront investment. The site is live within 14 days or we work for free until it is.
 
-### Cost Over Time
+Over 36 months on the rental plan, that is 46,440 NIS. More than buying outright. But for a business that cannot absorb a 9,900 NIS cost upfront, it is the model that gets you a professional site without the financial strain.
 
-Let us do the math for a 3-year period:
+## When Wix Actually Makes Sense
 
-**Wix:** ₪150/month x 36 = ₪5,400 + paid add-ons (forms, analytics, apps) = ₪7,000-₪9,000
+A business that is just starting, genuinely has no budget, and needs something online this week while they validate a concept. A freelancer building a simple portfolio. A project that is expected to run for 6 months or less.
 
-**Custom:** ₪7,000 one-time + ₪300/month hosting and maintenance x 36 = ₪17,800
-
-Yes, custom costs more. But when the custom site brings more customers through better speed, SEO and stronger branding, the investment pays for itself fast.
-
-## When Wix IS the Right Choice
-
-A brand-new business with ₪0 budget for a site that needs something live this week. A freelancer who needs a simple landing page with a portfolio. A temporary or experimental project.
+If that is you, Wix is fine. It will do the job.
 
 ## When to Go Custom
 
-When the website is a core sales tool. When you compete for Google keywords. When you sell online. When you want to look professional, not like "another Wix site." When you are building a long-term brand.
+When your website is how clients find you. When you compete for Google traffic and your competitors are already on the first page. When you sell online and the conversion experience determines your revenue. When you want to be taken seriously by the type of client who pays well. When you are building something that will still matter in three years.
 
-## How We Work
+## Our 14-Day Guarantee
 
-At ETW we build custom websites starting at ₪4,900. Delivery time: 2-4 weeks. Includes design, development, basic SEO, mobile optimization and a content management panel.
+Every site we build launches within 14 calendar days of receiving your content and access. If we miss that deadline, we continue working at no charge until the site is live.
 
-Want to know the right solution for you? [Book a free call](https://calendly.com/dan-etw/30min). We will not push you in any direction, just tell you what we think.
+If you want to see whether a rental plan or a one-time build makes more sense for where your business is right now, [book a free call](https://calendly.com/dan-etw/30min). We will give you an honest answer.
 `,
     },
     "shopify-store-not-converting": {
@@ -1325,77 +1335,109 @@ Want to talk about it? [Book a free call](https://calendly.com/dan-etw/30min). W
     },
     "google-business-profile-guide": {
       slug: "google-business-profile-guide",
-      title: "Google Business Profile - Complete Guide for Businesses in Israel",
+      title: "Google Business Profile: The Complete Setup Guide for Israeli Businesses",
       date: "2026-07-01",
-      readTime: "6 min",
+      readTime: "8 min",
       category: "SEO",
-      metaDescription: "How to set up, optimize and turn your Google Business Profile into a customer magnet. Including tips for Maps ranking.",
+      metaDescription: "Step-by-step guide to setting up and optimizing your Google Business Profile in Israel. Get found on Maps, collect reviews, and turn searches into customers.",
       content: `
-## The Free Tool Most Businesses Waste
+## The Most Powerful Free Marketing Tool You Are Probably Not Using
 
-Google Business Profile (formerly Google My Business) is one of the most powerful marketing tools that exists. It is completely free. And yet, 56% of small businesses in Israel have not claimed their profile, and of those that have, most filled in the bare minimum and forgot about it.
+Walk down any commercial street in Tel Aviv, Haifa, or Jerusalem and you will see businesses that have been operating for years with no Google presence at all. No reviews. No hours. No photos. Sometimes not even a verified profile. Their competitors, who took 20 minutes to set this up correctly, are getting called every week from people who searched for exactly what that business offers.
 
-Your Google Business Profile is what shows up when someone searches for your business, or a service like yours, on Google. It is the first business card a potential customer sees. Photos, reviews, hours, address, phone number, website link. Everything is right there.
+Google Business Profile (formerly Google My Business) is the tool that controls how your business appears when someone searches on Google Maps or types your category plus location into Google Search. It is free. It takes less than an hour to set up properly. And once it is done, it generates inquiries without any ongoing ad spend.
 
-## How to Set It Up (10 Minutes, No More)
+This guide walks through setup, optimization, and the specific things that separate profiles that rank well from profiles that sit invisible.
 
-### Step 1: Claim Your Profile
+## Who This Is For
 
-Go to [business.google.com](https://business.google.com) and sign up. Search for your business name. If it already exists (Google creates profiles automatically), claim ownership. If not, create a new one.
+Any business with a physical location or a service area benefits from Google Business Profile. Plumbers, clinics, law offices, restaurants, cleaning services, construction contractors, tutors, beauty salons. If your customers are within a specific geographic area, this tool is for you.
 
-### Step 2: Verification
+For Russian-speaking business owners in Israel who built their client base through referrals and community networks, Google Business Profile is often the first step toward getting found by people outside that immediate circle. It is how you grow beyond who you already know.
 
-Google will send a postcard with a code to your business address (takes 5-14 business days), or you may be able to verify by phone or email if your business meets certain criteria. Without verification, the profile will not appear.
+## Step 1: Claim or Create Your Profile
 
-### Step 3: Fill In Everything
+Go to [business.google.com](https://business.google.com) and sign in with a Google account you control. Search for your business name.
 
-Literally everything. Exact business name (exactly as it appears on invoices), primary category (pick the most specific one), description (750 characters, use them all), hours, address, phone number, website.
+If a profile already exists, Google may have created it automatically from public information. Claim it. If no profile exists, create one from scratch.
 
-## Optimization That Makes the Difference
+This first step matters: an unclaimed profile can have incorrect information, no photos, and no way for you to respond to reviews. Once you claim it, you control everything.
 
-### Photos, Photos, Photos
+## Step 2: Complete Verification
 
-Businesses with 10+ photos get 35% more clicks to their website. Upload photos of the business exterior and interior, the team, your products or results. Not stock photos. Real photos, good quality.
+Google needs to confirm you actually operate from the address you listed. For most businesses, this means receiving a postcard with a 5-digit verification code, which takes 5-14 business days. Some businesses qualify for phone or video verification, which is faster.
 
-### Reviews Are Gold
+Do not skip this. An unverified profile does not appear on Maps and has very limited search visibility.
 
-Google reviews directly affect your Maps ranking. Every week, ask a happy customer to write a review. Not a mass message, but personally. "Hey, great working with you. If you have a minute, a Google review would help us a lot" and send a direct link.
+## Step 3: Fill In Every Field
 
-The trick: you can generate a direct review link from the profile dashboard. Send it via WhatsApp to the customer right after a successful service.
+This step is where most businesses underperform. They fill in the name, address, and phone number, then stop. That is not enough.
 
-**Important:** Respond to every review. Positive and negative. Google rewards active businesses.
+**Business name:** Exactly as it appears on your official documents. Not "Best Electrician Tel Aviv" but "Cohen Electrical Services." Google penalizes keyword stuffing in business names and it can result in your profile being suspended.
 
-### Posts (Yes, That Is a Thing)
+**Primary category:** Choose the most specific option available. "Electrician" not "Contractor." Google uses this to decide which searches to show your profile for. You can add secondary categories later.
 
-Most businesses do not know you can publish posts on your business profile. Promotions, events, news, new products. The posts appear directly in search results and give you more visibility.
+**Description:** You get 750 characters. Use most of them. Describe what you do, who you serve, and what makes you different. Include your city or neighborhood naturally. Write in the language your customers search in, which for most Israeli businesses means Hebrew, but if you serve English or Russian speakers, consider which language they actually use when searching.
 
-Publish a new post every week. It takes 5 minutes and keeps the profile alive and relevant.
+**Hours:** Accurate hours, including special hours for Jewish holidays. If someone tries to call during Sukkot and your hours are wrong, the negative review writes itself.
 
-### Secondary Categories
+**Phone number:** Use the number people will actually reach someone on, not a fax or old line.
 
-Besides the primary category, you can add secondary categories. If you are a restaurant that also does catering, add "Catering Service" as a secondary category. This expands the searches where you appear.
+**Website:** Link to your actual website. If you do not have one, this is a gap worth addressing.
 
-## How to Rank Higher in Maps
+**Services:** Add every service you offer as a specific item. Google surfaces businesses in searches for specific services when those services are listed in the profile.
 
-The three factors Google uses for Maps ranking:
+## Optimization That Actually Moves the Needle
 
-**Relevance:** How well your profile matches the search. Filling in all fields completely helps.
+### Photos Drive Clicks
 
-**Distance:** How close the business is to the searcher. You cannot control this.
+Businesses with 10 or more photos receive 35% more website clicks and 42% more requests for directions than businesses with fewer than 10 photos. Real photos, not stock images.
 
-**Prominence:** How well-known and trusted your business is. Reviews, website links, presence in business directories all help.
+Upload photos of your storefront or office from the outside, so people can recognize it when they arrive. Photos of the interior. Photos of your team at work. Photos of your finished work or products. Update these every few months.
 
-## Common Mistakes
+For restaurants and cafes, food photos are critical. For service businesses like cleaning or renovation contractors, before-and-after photos are extremely effective.
 
-**Keyword-stuffed business name.** "Emergency Plumber Tel Aviv 24/7 Best Ever" is not a business name. Google penalizes this. Use your actual business name.
+### Reviews Are the Ranking Signal You Can Actually Influence
 
-**Outdated hours.** If a customer shows up and you are closed, that is a negative review waiting to happen. Update holiday hours in advance.
+Google's Maps algorithm weighs three things: relevance (how well your profile matches the search), proximity (how close you are to the searcher), and prominence (how established and trusted you appear). Prominence is the only one you actively build.
 
-**Ignoring negative reviews.** Silence looks like admission. Respond professionally, without arguing, with a solution.
+Reviews drive prominence. A business with 40 reviews at 4.7 stars outranks an equally relevant competitor with 8 reviews at 5.0 stars in nearly every test.
 
-## Need Someone to Handle This?
+Build a simple habit: after any positive interaction with a customer, send them a WhatsApp message with a direct link to leave a Google review. You can generate this link directly from your Google Business Profile dashboard. The message can be as simple as: "Thank you for choosing us. If you have a moment, a review on Google really helps us. Here is the direct link:" and then paste the URL.
 
-We manage Google Business Profiles as part of our SEO packages, starting at ₪2,900/month. Setup, optimization, ongoing content and review monitoring. [Book a free call](https://calendly.com/dan-etw/30min) and we will check the state of your profile together.
+Respond to every review, positive and negative. Google rewards active profiles. For negative reviews, respond calmly, acknowledge the issue, and offer to resolve it. Do not argue. Do not ignore.
+
+### GBP Posts: Free Visibility Most Businesses Skip
+
+Your Google Business Profile has a posts feature that almost nobody uses. You can publish updates, offers, events, and new service announcements. These appear directly in your Google Search listing.
+
+Post something once per week. An announcement, a tip, a seasonal offer, a completed project. It takes five minutes and signals to Google that your profile is active and maintained. Active profiles rank better.
+
+## What Determines Your Maps Ranking
+
+Google is explicit about the three factors that determine local search ranking.
+
+**Relevance** is how closely your profile matches what someone searched for. Complete profiles with accurate categories and services rank more relevantly than incomplete ones.
+
+**Distance** is proximity to the searcher. You cannot move your business to rank for this. What you can do is optimize for the searches where your location is competitive.
+
+**Prominence** is how well-known your business is. This is built by review volume, website links pointing to your business, your website's own authority, and your presence in other directories. For Israeli businesses, being listed on Zap, B144, and relevant sector directories all contribute to this.
+
+## The Mistakes That Hold Businesses Back
+
+**Inconsistent NAP data.** Your Name, Address, and Phone number must be identical across your website, Google profile, and every directory where you appear. "HaYarkon 50" on Google and "50 Hayarkon Street" on your website looks like two different businesses to search algorithms. Pick one format and use it everywhere.
+
+**Ignoring the Q and A section.** Anyone can add questions to your profile, and anyone can answer them. If you are not monitoring this, competitors or uninformed users may be answering questions about your business incorrectly. Check it monthly and add your own FAQs proactively.
+
+**Setting it up and forgetting it.** Profiles that go months without activity, no new photos, no posts, no review responses, gradually lose ranking to more active competitors. Fifteen minutes per week is enough to keep a profile current.
+
+## Getting Your Website Found Alongside Your Profile
+
+A well-optimized Google Business Profile is more effective when it links to a website that Google also respects. Fast load times, mobile optimization, clear service pages with location-specific content. If your website is on Wix or another platform with known technical limitations, those limitations affect how much trust Google extends to your business overall.
+
+If you are ready to have both pieces working together, a professional site on our Business plan starts at 9,900 NIS one-time, or 1,290 NIS per month on our rental model with no large upfront cost. The site is live within 14 days.
+
+[Book a free call](https://calendly.com/dan-etw/30min) and we will audit your current Google Business Profile, show you exactly what is missing, and tell you what a professional site would add to your local search presence.
 `,
     },
   },
