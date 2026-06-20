@@ -514,7 +514,7 @@ export default function ConfiguratorPageEN() {
                   {/* ── pricing tiers ── */}
                   <div>
                     <h3 className="text-lg font-bold mb-4">Choose a rental plan</h3>
-                    <div className="grid grid-cols-3 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                       {tiers.map((tier) => (
                         <button
                           key={tier.name}
