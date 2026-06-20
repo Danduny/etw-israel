@@ -111,6 +111,9 @@ export default function ConfiguratorPageEN() {
     e.preventDefault();
     const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
+    if (logoFile) {
+      formData.set("logo-filename", logoFile.name);
+    }
     try {
       await fetch("/", {
         method: "POST",
