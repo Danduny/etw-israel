@@ -153,12 +153,12 @@ export default function RentalPage() {
           <div className="stagger-3">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://wa.me/972559510042?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%AA%D7%A2%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%94%D7%A9%D7%9B%D7%A8%D7%AA%20%D7%90%D7%AA%D7%A8"
+                href="https://t.me/etwagency"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary px-8 py-4 text-sm font-semibold"
               >
-                דברו איתנו בוואטסאפ
+                דברו איתנו בטלגרם
               </a>
               <a
                 href="#pricing"
@@ -290,7 +290,7 @@ export default function RentalPage() {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/972559510042?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%AA%D7%A2%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%94%D7%A9%D7%9B%D7%A8%D7%AA%20%D7%90%D7%AA%D7%A8"
+                  href="https://t.me/etwagency"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`text-center py-3 rounded-lg text-sm font-semibold transition-all duration-200 ${
@@ -341,15 +341,15 @@ export default function RentalPage() {
             <span className="text-gradient">בלי להשקיע הון?</span>
           </h2>
           <p className="text-gray-400 text-lg mb-12 max-w-xl mx-auto font-light leading-relaxed">
-            שיחה קצרה בוואטסאפ ונבין מה אתם צריכים. בלי מכירות, בלי לחץ.
+            שיחה קצרה בטלגרם ונבין מה אתם צריכים. בלי מכירות, בלי לחץ.
           </p>
           <a
-            href="https://wa.me/972559510042?text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%AA%D7%A2%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%94%D7%A9%D7%9B%D7%A8%D7%AA%20%D7%90%D7%AA%D7%A8"
+            href="https://t.me/etwagency"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary px-10 sm:px-14 py-4 sm:py-5 text-base sm:text-lg inline-block font-semibold"
           >
-            דברו איתנו בוואטסאפ
+            דברו איתנו בטלגרם
           </a>
         </div>
       </section>

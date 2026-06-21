@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 /* ── types ── */
 type SiteType = "business" | "store" | "portfolio" | "landing" | "unsure";
-type ContactMethod = "whatsapp" | "phone" | "email";
+type ContactMethod = "telegram" | "phone" | "email";
 
 /* ── data ── */
 const siteTypes: { id: SiteType; icon: string; title: string; desc: string }[] = [
@@ -48,7 +48,7 @@ export default function ConfiguratorPageEN() {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [bizDesc, setBizDesc] = useState("");
-  const [contactMethod, setContactMethod] = useState<ContactMethod>("whatsapp");
+  const [contactMethod, setContactMethod] = useState<ContactMethod>("telegram");
   const [selectedTier, setSelectedTier] = useState("Business Website");
 
   const [submitted, setSubmitted] = useState(false);
@@ -133,12 +133,12 @@ export default function ConfiguratorPageEN() {
               We&apos;ll get back to you within 24 hours with a tailored proposal. Want to talk now?
             </p>
             <a
-              href="https://wa.me/972559510042?text=Hi%2C%20I%20just%20sent%20a%20brief%20through%20the%20website"
+              href="https://t.me/etwagency"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary px-10 py-4 text-base inline-block font-semibold"
             >
-              Message us on WhatsApp
+              Message us on Telegram
             </a>
           </div>
         </section>
@@ -431,7 +431,7 @@ export default function ConfiguratorPageEN() {
                       <label className="block text-sm font-bold mb-3">Preferred contact method</label>
                       <div className="flex gap-3">
                         {([
-                          { id: "whatsapp" as ContactMethod, label: "WhatsApp" },
+                          { id: "telegram" as ContactMethod, label: "Telegram" },
                           { id: "phone" as ContactMethod, label: "Phone Call" },
                           { id: "email" as ContactMethod, label: "Email" },
                         ]).map((m) => (

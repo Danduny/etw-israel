@@ -154,12 +154,12 @@ export default function RentalPageEN() {
           <div className="stagger-3">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://wa.me/972559510042?text=Hi%2C%20I%27m%20interested%20in%20website%20rental"
+                href="https://t.me/etwagency"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary px-8 py-4 text-sm font-semibold"
               >
-                Chat on WhatsApp
+                Chat on Telegram
               </a>
               <a
                 href="#pricing"
@@ -289,7 +289,7 @@ export default function RentalPageEN() {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/972559510042?text=Hi%2C%20I%27m%20interested%20in%20website%20rental"
+                  href="https://t.me/etwagency"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`text-center py-3 rounded-lg text-sm font-semibold transition-all duration-200 ${
@@ -340,16 +340,16 @@ export default function RentalPageEN() {
             <span className="text-gradient">Without the Big Investment?</span>
           </h2>
           <p className="text-gray-400 text-lg mb-12 max-w-xl mx-auto font-light leading-relaxed">
-            A quick WhatsApp chat and we will figure out what you need. No sales
+            A quick Telegram chat and we will figure out what you need. No sales
             pitch, no pressure.
           </p>
           <a
-            href="https://wa.me/972559510042?text=Hi%2C%20I%27m%20interested%20in%20website%20rental"
+            href="https://t.me/etwagency"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary px-10 sm:px-14 py-4 sm:py-5 text-base sm:text-lg inline-block font-semibold"
           >
-            Chat on WhatsApp
+            Chat on Telegram
           </a>
         </div>
       </section>
